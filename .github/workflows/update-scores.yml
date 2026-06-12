@@ -6,6 +6,9 @@ on:
     - cron: '*/20 * * * *'
   workflow_dispatch: # Allows you to also trigger it manually from GitHub if needed
 
+permissions:
+  contents: write
+
 jobs:
   update-data:
     runs-on: ubuntu-latest
