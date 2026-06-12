@@ -1,0 +1,35 @@
+name: Scheduled World Cup Data Update
+
+on:
+  schedule:
+    # This tells GitHub to run the script automatically every 60 minutes
+    - cron: '*/20 * * * *'
+  workflow_dispatch: # Allows you to also trigger it manually from GitHub if needed
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository code
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js environment
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run calculation engine
+        run: npm run update-data
+        env:
+          API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
+
+      - name: Commit and push updated leaderboard.json
+        run: |
+          git config --global user.name "GitHub Action Bot"
+          git config --global user.email "actions@github.com"
+          git add public/data/leaderboard.json
+          git diff-index --quiet HEAD || (git commit -m "Automated Score Update: $(date -u)" && git push)
