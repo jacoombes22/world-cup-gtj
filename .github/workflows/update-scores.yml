@@ -36,3 +36,9 @@ jobs:
           git config --global user.email "actions@github.com"
           git add public/data/leaderboard.json
           git diff-index --quiet HEAD || (git commit -m "Automated Score Update: $(date -u)" && git push)
+      
+      - name: Deploy static assets to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: dist # Change this to 'dist' or 'build' if you use Vite/CRA
+          branch: gh-pages
