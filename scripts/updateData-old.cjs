@@ -1,4 +1,4 @@
-// scripts/updateData.js
+// scripts/updateData.cjs
 //
 // This script runs hourly via GitHub Actions. It calls API-Football,
 // computes the fantasy leaderboard based on the scoring model, and writes
@@ -7,6 +7,7 @@
 
 const fs = require('fs');
 const path = require('path');
+require('dotenv').config();
 
 const API_KEY = process.env.API_FOOTBALL_KEY;
 const BASE_URL = 'https://v3.football.api-sports.io';
