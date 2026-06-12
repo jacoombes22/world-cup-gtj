@@ -309,8 +309,6 @@ export default function Leaderboard() {
                   </div>
                 </div>
                 <div className="fixture-row__meta">
-                  {formatFixtureDate(f.date)}
-                  <br />
                   {f.round}
                 </div>
               </div>
