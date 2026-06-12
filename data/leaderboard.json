@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-06-12T20:55:29.449Z",
-  "currentRound": "group_b",
+  "updatedAt": "2026-06-12T22:26:35.678Z",
+  "currentRound": "group_d",
   "leaderboard": [
     {
       "owner": "Tim",
-      "totalPoints": 1,
+      "totalPoints": 1.66,
       "teams": [
         {
           "teamName": "South Korea",
@@ -19,6 +19,34 @@
           "groupPoints": 1,
           "knockoutPoints": 0,
           "totalPoints": 1
+        },
+        {
+          "teamName": "Canada",
+          "owner": "Tim",
+          "groupName": "Group B",
+          "rank": 2,
+          "played": 1,
+          "wins": 0,
+          "draws": 1,
+          "losses": 0,
+          "goalsDiff": 0,
+          "groupPoints": 0.33,
+          "knockoutPoints": 0,
+          "totalPoints": 0.33
+        },
+        {
+          "teamName": "Bosnia and Herzegovina",
+          "owner": "Tim",
+          "groupName": "Group B",
+          "rank": 1,
+          "played": 1,
+          "wins": 0,
+          "draws": 1,
+          "losses": 0,
+          "goalsDiff": 0,
+          "groupPoints": 0.33,
+          "knockoutPoints": 0,
+          "totalPoints": 0.33
         },
         {
           "teamName": "France",
@@ -109,34 +137,6 @@
           "owner": "Tim",
           "groupName": "Group H",
           "rank": 4,
-          "played": 0,
-          "wins": 0,
-          "draws": 0,
-          "losses": 0,
-          "goalsDiff": 0,
-          "groupPoints": 0,
-          "knockoutPoints": 0,
-          "totalPoints": 0
-        },
-        {
-          "teamName": "Canada",
-          "owner": "Tim",
-          "groupName": "Group B",
-          "rank": 2,
-          "played": 0,
-          "wins": 0,
-          "draws": 0,
-          "losses": 0,
-          "goalsDiff": 0,
-          "groupPoints": 0,
-          "knockoutPoints": 0,
-          "totalPoints": 0
-        },
-        {
-          "teamName": "Bosnia and Herzegovina",
-          "owner": "Tim",
-          "groupName": "Group B",
-          "rank": 1,
           "played": 0,
           "wins": 0,
           "draws": 0,
@@ -748,23 +748,23 @@
       "teams": [
         {
           "teamName": "Bosnia and Herzegovina",
-          "played": 0,
+          "played": 1,
           "wins": 0,
-          "draws": 0,
+          "draws": 1,
           "losses": 0,
           "goalsDiff": 0,
-          "points": 0,
+          "points": 1,
           "owner": "Tim",
           "rank": 1
         },
         {
           "teamName": "Canada",
-          "played": 0,
+          "played": 1,
           "wins": 0,
-          "draws": 0,
+          "draws": 1,
           "losses": 0,
           "goalsDiff": 0,
-          "points": 0,
+          "points": 1,
           "owner": "Tim",
           "rank": 2
         },
@@ -1294,6 +1294,15 @@
       "status": "FT"
     },
     {
+      "date": "2026-06-12",
+      "round": "group_b",
+      "home": "Canada",
+      "away": "Bosnia and Herzegovina",
+      "homeGoals": 1,
+      "awayGoals": 1,
+      "status": "FT"
+    },
+    {
       "date": "2026-06-11",
       "round": "group_a",
       "home": "Mexico",
@@ -1304,13 +1313,6 @@
     }
   ],
   "upcomingFixtures": [
-    {
-      "date": "2026-06-12",
-      "round": "group_b",
-      "home": "Canada",
-      "away": "Bosnia and Herzegovina",
-      "status": "NS"
-    },
     {
       "date": "2026-06-13",
       "round": "group_d",
@@ -1372,6 +1374,13 @@
       "round": "group_f",
       "home": "Sweden",
       "away": "Tunisia",
+      "status": "NS"
+    },
+    {
+      "date": "2026-06-15",
+      "round": "group_h",
+      "home": "Saudi Arabia",
+      "away": "Uruguay",
       "status": "NS"
     }
   ]
