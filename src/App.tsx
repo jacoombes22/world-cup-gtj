@@ -30,7 +30,7 @@ export default function App() {
       </main>
 
       <footer className="footer">
-        <p>Data refreshed hourly from API-Football. Scores update automatically &mdash; no action needed.</p>
+        <p>Data powered by Zafronix WC API, refreshed every 20 min. Visit at zafronix.com</p>
       </footer>
     </div>
   );
