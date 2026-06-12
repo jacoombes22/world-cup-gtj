@@ -1,15 +1,30 @@
 {
-  "updatedAt": "2026-06-12T17:24:01.561Z",
-  "currentRound": "Group Stage",
+  "updatedAt": "2026-06-12T17:42:44.538Z",
+  "currentRound": "group_b",
   "leaderboard": [
     {
       "owner": "Tim",
-      "totalPoints": 0,
+      "totalPoints": 1,
       "teams": [
         {
+          "teamName": "South Korea",
+          "owner": "Tim",
+          "groupName": "Group A",
+          "rank": 2,
+          "played": 1,
+          "wins": 1,
+          "draws": 0,
+          "losses": 0,
+          "goalsDiff": 1,
+          "groupPoints": 1,
+          "knockoutPoints": 0,
+          "totalPoints": 1
+        },
+        {
           "teamName": "France",
-          "groupName": null,
-          "rank": null,
+          "owner": "Tim",
+          "groupName": "Group I",
+          "rank": 1,
           "played": 0,
           "wins": 0,
           "draws": 0,
@@ -21,8 +36,9 @@
         },
         {
           "teamName": "Argentina",
-          "groupName": null,
-          "rank": null,
+          "owner": "Tim",
+          "groupName": "Group J",
+          "rank": 2,
           "played": 0,
           "wins": 0,
           "draws": 0,
@@ -34,8 +50,9 @@
         },
         {
           "teamName": "Germany",
-          "groupName": null,
-          "rank": null,
+          "owner": "Tim",
+          "groupName": "Group E",
+          "rank": 3,
           "played": 0,
           "wins": 0,
           "draws": 0,
@@ -47,8 +64,9 @@
         },
         {
           "teamName": "USA",
-          "groupName": null,
-          "rank": null,
+          "owner": "Tim",
+          "groupName": "Group D",
+          "rank": 4,
           "played": 0,
           "wins": 0,
           "draws": 0,
@@ -60,8 +78,9 @@
         },
         {
           "teamName": "Switzerland",
-          "groupName": null,
-          "rank": null,
+          "owner": "Tim",
+          "groupName": "Group B",
+          "rank": 4,
           "played": 0,
           "wins": 0,
           "draws": 0,
@@ -72,9 +91,10 @@
           "totalPoints": 0
         },
         {
-          "teamName": "Turkey",
-          "groupName": null,
-          "rank": null,
+          "teamName": "Türkiye",
+          "owner": "Tim",
+          "groupName": "Group D",
+          "rank": 3,
           "played": 0,
           "wins": 0,
           "draws": 0,
@@ -86,8 +106,9 @@
         },
         {
           "teamName": "Uruguay",
-          "groupName": null,
-          "rank": null,
+          "owner": "Tim",
+          "groupName": "Group H",
+          "rank": 4,
           "played": 0,
           "wins": 0,
           "draws": 0,
@@ -99,21 +120,9 @@
         },
         {
           "teamName": "Canada",
-          "groupName": null,
-          "rank": null,
-          "played": 0,
-          "wins": 0,
-          "draws": 0,
-          "losses": 0,
-          "goalsDiff": 0,
-          "groupPoints": 0,
-          "knockoutPoints": 0,
-          "totalPoints": 0
-        },
-        {
-          "teamName": "South Korea",
-          "groupName": null,
-          "rank": null,
+          "owner": "Tim",
+          "groupName": "Group B",
+          "rank": 2,
           "played": 0,
           "wins": 0,
           "draws": 0,
@@ -125,8 +134,9 @@
         },
         {
           "teamName": "Bosnia and Herzegovina",
-          "groupName": null,
-          "rank": null,
+          "owner": "Tim",
+          "groupName": "Group B",
+          "rank": 1,
           "played": 0,
           "wins": 0,
           "draws": 0,
@@ -138,8 +148,9 @@
         },
         {
           "teamName": "Senegal",
-          "groupName": null,
-          "rank": null,
+          "owner": "Tim",
+          "groupName": "Group I",
+          "rank": 4,
           "played": 0,
           "wins": 0,
           "draws": 0,
@@ -151,8 +162,9 @@
         },
         {
           "teamName": "Tunisia",
-          "groupName": null,
-          "rank": null,
+          "owner": "Tim",
+          "groupName": "Group F",
+          "rank": 4,
           "played": 0,
           "wins": 0,
           "draws": 0,
@@ -164,8 +176,9 @@
         },
         {
           "teamName": "Iran",
-          "groupName": null,
-          "rank": null,
+          "owner": "Tim",
+          "groupName": "Group G",
+          "rank": 3,
           "played": 0,
           "wins": 0,
           "draws": 0,
@@ -177,8 +190,9 @@
         },
         {
           "teamName": "DR Congo",
-          "groupName": null,
-          "rank": null,
+          "owner": "Tim",
+          "groupName": "Group K",
+          "rank": 2,
           "played": 0,
           "wins": 0,
           "draws": 0,
@@ -190,8 +204,9 @@
         },
         {
           "teamName": "Saudi Arabia",
-          "groupName": null,
-          "rank": null,
+          "owner": "Tim",
+          "groupName": "Group H",
+          "rank": 2,
           "played": 0,
           "wins": 0,
           "draws": 0,
@@ -203,8 +218,239 @@
         },
         {
           "teamName": "Iraq",
-          "groupName": null,
-          "rank": null,
+          "owner": "Tim",
+          "groupName": "Group I",
+          "rank": 2,
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "goalsDiff": 0,
+          "groupPoints": 0,
+          "knockoutPoints": 0,
+          "totalPoints": 0
+        }
+      ]
+    },
+    {
+      "owner": "Griffin",
+      "totalPoints": 1,
+      "teams": [
+        {
+          "teamName": "Mexico",
+          "owner": "Griffin",
+          "groupName": "Group A",
+          "rank": 1,
+          "played": 1,
+          "wins": 1,
+          "draws": 0,
+          "losses": 0,
+          "goalsDiff": 2,
+          "groupPoints": 1,
+          "knockoutPoints": 0,
+          "totalPoints": 1
+        },
+        {
+          "teamName": "Portugal",
+          "owner": "Griffin",
+          "groupName": "Group K",
+          "rank": 3,
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "goalsDiff": 0,
+          "groupPoints": 0,
+          "knockoutPoints": 0,
+          "totalPoints": 0
+        },
+        {
+          "teamName": "Brazil",
+          "owner": "Griffin",
+          "groupName": "Group C",
+          "rank": 1,
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "goalsDiff": 0,
+          "groupPoints": 0,
+          "knockoutPoints": 0,
+          "totalPoints": 0
+        },
+        {
+          "teamName": "Belgium",
+          "owner": "Griffin",
+          "groupName": "Group G",
+          "rank": 1,
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "goalsDiff": 0,
+          "groupPoints": 0,
+          "knockoutPoints": 0,
+          "totalPoints": 0
+        },
+        {
+          "teamName": "Norway",
+          "owner": "Griffin",
+          "groupName": "Group I",
+          "rank": 3,
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "goalsDiff": 0,
+          "groupPoints": 0,
+          "knockoutPoints": 0,
+          "totalPoints": 0
+        },
+        {
+          "teamName": "Japan",
+          "owner": "Griffin",
+          "groupName": "Group F",
+          "rank": 1,
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "goalsDiff": 0,
+          "groupPoints": 0,
+          "knockoutPoints": 0,
+          "totalPoints": 0
+        },
+        {
+          "teamName": "Austria",
+          "owner": "Griffin",
+          "groupName": "Group J",
+          "rank": 3,
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "goalsDiff": 0,
+          "groupPoints": 0,
+          "knockoutPoints": 0,
+          "totalPoints": 0
+        },
+        {
+          "teamName": "Ivory Coast",
+          "owner": "Griffin",
+          "groupName": "Group E",
+          "rank": 4,
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "goalsDiff": 0,
+          "groupPoints": 0,
+          "knockoutPoints": 0,
+          "totalPoints": 0
+        },
+        {
+          "teamName": "Czechia",
+          "owner": "Griffin",
+          "groupName": "Group A",
+          "rank": 3,
+          "played": 1,
+          "wins": 0,
+          "draws": 0,
+          "losses": 1,
+          "goalsDiff": -1,
+          "groupPoints": 0,
+          "knockoutPoints": 0,
+          "totalPoints": 0
+        },
+        {
+          "teamName": "Egypt",
+          "owner": "Griffin",
+          "groupName": "Group G",
+          "rank": 2,
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "goalsDiff": 0,
+          "groupPoints": 0,
+          "knockoutPoints": 0,
+          "totalPoints": 0
+        },
+        {
+          "teamName": "Ghana",
+          "owner": "Griffin",
+          "groupName": "Group L",
+          "rank": 3,
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "goalsDiff": 0,
+          "groupPoints": 0,
+          "knockoutPoints": 0,
+          "totalPoints": 0
+        },
+        {
+          "teamName": "Australia",
+          "owner": "Griffin",
+          "groupName": "Group D",
+          "rank": 1,
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "goalsDiff": 0,
+          "groupPoints": 0,
+          "knockoutPoints": 0,
+          "totalPoints": 0
+        },
+        {
+          "teamName": "South Africa",
+          "owner": "Griffin",
+          "groupName": "Group A",
+          "rank": 4,
+          "played": 1,
+          "wins": 0,
+          "draws": 0,
+          "losses": 1,
+          "goalsDiff": -2,
+          "groupPoints": 0,
+          "knockoutPoints": 0,
+          "totalPoints": 0
+        },
+        {
+          "teamName": "Panama",
+          "owner": "Griffin",
+          "groupName": "Group L",
+          "rank": 4,
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "goalsDiff": 0,
+          "groupPoints": 0,
+          "knockoutPoints": 0,
+          "totalPoints": 0
+        },
+        {
+          "teamName": "Haiti",
+          "owner": "Griffin",
+          "groupName": "Group C",
+          "rank": 2,
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "goalsDiff": 0,
+          "groupPoints": 0,
+          "knockoutPoints": 0,
+          "totalPoints": 0
+        },
+        {
+          "teamName": "Curacao",
+          "owner": "Griffin",
+          "groupName": "Group E",
+          "rank": 1,
           "played": 0,
           "wins": 0,
           "draws": 0,
@@ -222,8 +468,9 @@
       "teams": [
         {
           "teamName": "Spain",
-          "groupName": null,
-          "rank": null,
+          "owner": "James",
+          "groupName": "Group H",
+          "rank": 3,
           "played": 0,
           "wins": 0,
           "draws": 0,
@@ -235,8 +482,9 @@
         },
         {
           "teamName": "England",
-          "groupName": null,
-          "rank": null,
+          "owner": "James",
+          "groupName": "Group L",
+          "rank": 2,
           "played": 0,
           "wins": 0,
           "draws": 0,
@@ -248,8 +496,9 @@
         },
         {
           "teamName": "Netherlands",
-          "groupName": null,
-          "rank": null,
+          "owner": "James",
+          "groupName": "Group F",
+          "rank": 2,
           "played": 0,
           "wins": 0,
           "draws": 0,
@@ -261,8 +510,9 @@
         },
         {
           "teamName": "Morocco",
-          "groupName": null,
-          "rank": null,
+          "owner": "James",
+          "groupName": "Group C",
+          "rank": 3,
           "played": 0,
           "wins": 0,
           "draws": 0,
@@ -274,8 +524,9 @@
         },
         {
           "teamName": "Colombia",
-          "groupName": null,
-          "rank": null,
+          "owner": "James",
+          "groupName": "Group K",
+          "rank": 1,
           "played": 0,
           "wins": 0,
           "draws": 0,
@@ -287,8 +538,23 @@
         },
         {
           "teamName": "Ecuador",
-          "groupName": null,
-          "rank": null,
+          "owner": "James",
+          "groupName": "Group E",
+          "rank": 2,
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "goalsDiff": 0,
+          "groupPoints": 0,
+          "knockoutPoints": 0,
+          "totalPoints": 0
+        },
+        {
+          "teamName": "Croatia",
+          "owner": "James",
+          "groupName": "Group L",
+          "rank": 1,
           "played": 0,
           "wins": 0,
           "draws": 0,
@@ -300,8 +566,9 @@
         },
         {
           "teamName": "Sweden",
-          "groupName": null,
-          "rank": null,
+          "owner": "James",
+          "groupName": "Group F",
+          "rank": 3,
           "played": 0,
           "wins": 0,
           "draws": 0,
@@ -313,8 +580,9 @@
         },
         {
           "teamName": "Scotland",
-          "groupName": null,
-          "rank": null,
+          "owner": "James",
+          "groupName": "Group C",
+          "rank": 4,
           "played": 0,
           "wins": 0,
           "draws": 0,
@@ -326,8 +594,9 @@
         },
         {
           "teamName": "Paraguay",
-          "groupName": null,
-          "rank": null,
+          "owner": "James",
+          "groupName": "Group D",
+          "rank": 2,
           "played": 0,
           "wins": 0,
           "draws": 0,
@@ -339,8 +608,9 @@
         },
         {
           "teamName": "Algeria",
-          "groupName": null,
-          "rank": null,
+          "owner": "James",
+          "groupName": "Group J",
+          "rank": 1,
           "played": 0,
           "wins": 0,
           "draws": 0,
@@ -352,8 +622,9 @@
         },
         {
           "teamName": "New Zealand",
-          "groupName": null,
-          "rank": null,
+          "owner": "James",
+          "groupName": "Group G",
+          "rank": 4,
           "played": 0,
           "wins": 0,
           "draws": 0,
@@ -364,9 +635,24 @@
           "totalPoints": 0
         },
         {
-          "teamName": "Cape Verde",
-          "groupName": null,
-          "rank": null,
+          "teamName": "Cabo Verde",
+          "owner": "James",
+          "groupName": "Group H",
+          "rank": 1,
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "goalsDiff": 0,
+          "groupPoints": 0,
+          "knockoutPoints": 0,
+          "totalPoints": 0
+        },
+        {
+          "teamName": "Jordan",
+          "owner": "James",
+          "groupName": "Group J",
+          "rank": 4,
           "played": 0,
           "wins": 0,
           "draws": 0,
@@ -378,8 +664,9 @@
         },
         {
           "teamName": "Uzbekistan",
-          "groupName": null,
-          "rank": null,
+          "owner": "James",
+          "groupName": "Group K",
+          "rank": 4,
           "played": 0,
           "wins": 0,
           "draws": 0,
@@ -391,222 +678,9 @@
         },
         {
           "teamName": "Qatar",
-          "groupName": null,
-          "rank": null,
-          "played": 0,
-          "wins": 0,
-          "draws": 0,
-          "losses": 0,
-          "goalsDiff": 0,
-          "groupPoints": 0,
-          "knockoutPoints": 0,
-          "totalPoints": 0
-        }
-      ]
-    },
-    {
-      "owner": "Griffin",
-      "totalPoints": 0,
-      "teams": [
-        {
-          "teamName": "Portugal",
-          "groupName": null,
-          "rank": null,
-          "played": 0,
-          "wins": 0,
-          "draws": 0,
-          "losses": 0,
-          "goalsDiff": 0,
-          "groupPoints": 0,
-          "knockoutPoints": 0,
-          "totalPoints": 0
-        },
-        {
-          "teamName": "Brazil",
-          "groupName": null,
-          "rank": null,
-          "played": 0,
-          "wins": 0,
-          "draws": 0,
-          "losses": 0,
-          "goalsDiff": 0,
-          "groupPoints": 0,
-          "knockoutPoints": 0,
-          "totalPoints": 0
-        },
-        {
-          "teamName": "Belgium",
-          "groupName": null,
-          "rank": null,
-          "played": 0,
-          "wins": 0,
-          "draws": 0,
-          "losses": 0,
-          "goalsDiff": 0,
-          "groupPoints": 0,
-          "knockoutPoints": 0,
-          "totalPoints": 0
-        },
-        {
-          "teamName": "Norway",
-          "groupName": null,
-          "rank": null,
-          "played": 0,
-          "wins": 0,
-          "draws": 0,
-          "losses": 0,
-          "goalsDiff": 0,
-          "groupPoints": 0,
-          "knockoutPoints": 0,
-          "totalPoints": 0
-        },
-        {
-          "teamName": "Japan",
-          "groupName": null,
-          "rank": null,
-          "played": 0,
-          "wins": 0,
-          "draws": 0,
-          "losses": 0,
-          "goalsDiff": 0,
-          "groupPoints": 0,
-          "knockoutPoints": 0,
-          "totalPoints": 0
-        },
-        {
-          "teamName": "Mexico",
-          "groupName": null,
-          "rank": null,
-          "played": 0,
-          "wins": 0,
-          "draws": 0,
-          "losses": 0,
-          "goalsDiff": 0,
-          "groupPoints": 0,
-          "knockoutPoints": 0,
-          "totalPoints": 0
-        },
-        {
-          "teamName": "Austria",
-          "groupName": null,
-          "rank": null,
-          "played": 0,
-          "wins": 0,
-          "draws": 0,
-          "losses": 0,
-          "goalsDiff": 0,
-          "groupPoints": 0,
-          "knockoutPoints": 0,
-          "totalPoints": 0
-        },
-        {
-          "teamName": "Ivory Coast",
-          "groupName": null,
-          "rank": null,
-          "played": 0,
-          "wins": 0,
-          "draws": 0,
-          "losses": 0,
-          "goalsDiff": 0,
-          "groupPoints": 0,
-          "knockoutPoints": 0,
-          "totalPoints": 0
-        },
-        {
-          "teamName": "Czech Republic",
-          "groupName": null,
-          "rank": null,
-          "played": 0,
-          "wins": 0,
-          "draws": 0,
-          "losses": 0,
-          "goalsDiff": 0,
-          "groupPoints": 0,
-          "knockoutPoints": 0,
-          "totalPoints": 0
-        },
-        {
-          "teamName": "Egypt",
-          "groupName": null,
-          "rank": null,
-          "played": 0,
-          "wins": 0,
-          "draws": 0,
-          "losses": 0,
-          "goalsDiff": 0,
-          "groupPoints": 0,
-          "knockoutPoints": 0,
-          "totalPoints": 0
-        },
-        {
-          "teamName": "Ghana",
-          "groupName": null,
-          "rank": null,
-          "played": 0,
-          "wins": 0,
-          "draws": 0,
-          "losses": 0,
-          "goalsDiff": 0,
-          "groupPoints": 0,
-          "knockoutPoints": 0,
-          "totalPoints": 0
-        },
-        {
-          "teamName": "Australia",
-          "groupName": null,
-          "rank": null,
-          "played": 0,
-          "wins": 0,
-          "draws": 0,
-          "losses": 0,
-          "goalsDiff": 0,
-          "groupPoints": 0,
-          "knockoutPoints": 0,
-          "totalPoints": 0
-        },
-        {
-          "teamName": "South Africa",
-          "groupName": null,
-          "rank": null,
-          "played": 0,
-          "wins": 0,
-          "draws": 0,
-          "losses": 0,
-          "goalsDiff": 0,
-          "groupPoints": 0,
-          "knockoutPoints": 0,
-          "totalPoints": 0
-        },
-        {
-          "teamName": "Panama",
-          "groupName": null,
-          "rank": null,
-          "played": 0,
-          "wins": 0,
-          "draws": 0,
-          "losses": 0,
-          "goalsDiff": 0,
-          "groupPoints": 0,
-          "knockoutPoints": 0,
-          "totalPoints": 0
-        },
-        {
-          "teamName": "Haiti",
-          "groupName": null,
-          "rank": null,
-          "played": 0,
-          "wins": 0,
-          "draws": 0,
-          "losses": 0,
-          "goalsDiff": 0,
-          "groupPoints": 0,
-          "knockoutPoints": 0,
-          "totalPoints": 0
-        },
-        {
-          "teamName": "Curacao",
-          "groupName": null,
-          "rank": null,
+          "owner": "James",
+          "groupName": "Group B",
+          "rank": 3,
           "played": 0,
           "wins": 0,
           "draws": 0,
@@ -619,7 +693,686 @@
       ]
     }
   ],
-  "groups": [],
-  "recentResults": [],
-  "upcomingFixtures": []
+  "groups": [
+    {
+      "groupName": "Group A",
+      "teams": [
+        {
+          "teamName": "Mexico",
+          "played": 1,
+          "wins": 1,
+          "draws": 0,
+          "losses": 0,
+          "goalsDiff": 2,
+          "points": 3,
+          "owner": "Griffin",
+          "rank": 1
+        },
+        {
+          "teamName": "South Korea",
+          "played": 1,
+          "wins": 1,
+          "draws": 0,
+          "losses": 0,
+          "goalsDiff": 1,
+          "points": 3,
+          "owner": "Tim",
+          "rank": 2
+        },
+        {
+          "teamName": "Czechia",
+          "played": 1,
+          "wins": 0,
+          "draws": 0,
+          "losses": 1,
+          "goalsDiff": -1,
+          "points": 0,
+          "owner": "Griffin",
+          "rank": 3
+        },
+        {
+          "teamName": "South Africa",
+          "played": 1,
+          "wins": 0,
+          "draws": 0,
+          "losses": 1,
+          "goalsDiff": -2,
+          "points": 0,
+          "owner": "Griffin",
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "groupName": "Group B",
+      "teams": [
+        {
+          "teamName": "Bosnia and Herzegovina",
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "goalsDiff": 0,
+          "points": 0,
+          "owner": "Tim",
+          "rank": 1
+        },
+        {
+          "teamName": "Canada",
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "goalsDiff": 0,
+          "points": 0,
+          "owner": "Tim",
+          "rank": 2
+        },
+        {
+          "teamName": "Qatar",
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "goalsDiff": 0,
+          "points": 0,
+          "owner": "James",
+          "rank": 3
+        },
+        {
+          "teamName": "Switzerland",
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "goalsDiff": 0,
+          "points": 0,
+          "owner": "Tim",
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "groupName": "Group C",
+      "teams": [
+        {
+          "teamName": "Brazil",
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "goalsDiff": 0,
+          "points": 0,
+          "owner": "Griffin",
+          "rank": 1
+        },
+        {
+          "teamName": "Haiti",
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "goalsDiff": 0,
+          "points": 0,
+          "owner": "Griffin",
+          "rank": 2
+        },
+        {
+          "teamName": "Morocco",
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "goalsDiff": 0,
+          "points": 0,
+          "owner": "James",
+          "rank": 3
+        },
+        {
+          "teamName": "Scotland",
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "goalsDiff": 0,
+          "points": 0,
+          "owner": "James",
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "groupName": "Group D",
+      "teams": [
+        {
+          "teamName": "Australia",
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "goalsDiff": 0,
+          "points": 0,
+          "owner": "Griffin",
+          "rank": 1
+        },
+        {
+          "teamName": "Paraguay",
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "goalsDiff": 0,
+          "points": 0,
+          "owner": "James",
+          "rank": 2
+        },
+        {
+          "teamName": "Türkiye",
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "goalsDiff": 0,
+          "points": 0,
+          "owner": "Tim",
+          "rank": 3
+        },
+        {
+          "teamName": "USA",
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "goalsDiff": 0,
+          "points": 0,
+          "owner": "Tim",
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "groupName": "Group E",
+      "teams": [
+        {
+          "teamName": "Curacao",
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "goalsDiff": 0,
+          "points": 0,
+          "owner": "Griffin",
+          "rank": 1
+        },
+        {
+          "teamName": "Ecuador",
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "goalsDiff": 0,
+          "points": 0,
+          "owner": "James",
+          "rank": 2
+        },
+        {
+          "teamName": "Germany",
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "goalsDiff": 0,
+          "points": 0,
+          "owner": "Tim",
+          "rank": 3
+        },
+        {
+          "teamName": "Ivory Coast",
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "goalsDiff": 0,
+          "points": 0,
+          "owner": "Griffin",
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "groupName": "Group F",
+      "teams": [
+        {
+          "teamName": "Japan",
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "goalsDiff": 0,
+          "points": 0,
+          "owner": "Griffin",
+          "rank": 1
+        },
+        {
+          "teamName": "Netherlands",
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "goalsDiff": 0,
+          "points": 0,
+          "owner": "James",
+          "rank": 2
+        },
+        {
+          "teamName": "Sweden",
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "goalsDiff": 0,
+          "points": 0,
+          "owner": "James",
+          "rank": 3
+        },
+        {
+          "teamName": "Tunisia",
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "goalsDiff": 0,
+          "points": 0,
+          "owner": "Tim",
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "groupName": "Group G",
+      "teams": [
+        {
+          "teamName": "Belgium",
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "goalsDiff": 0,
+          "points": 0,
+          "owner": "Griffin",
+          "rank": 1
+        },
+        {
+          "teamName": "Egypt",
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "goalsDiff": 0,
+          "points": 0,
+          "owner": "Griffin",
+          "rank": 2
+        },
+        {
+          "teamName": "Iran",
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "goalsDiff": 0,
+          "points": 0,
+          "owner": "Tim",
+          "rank": 3
+        },
+        {
+          "teamName": "New Zealand",
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "goalsDiff": 0,
+          "points": 0,
+          "owner": "James",
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "groupName": "Group H",
+      "teams": [
+        {
+          "teamName": "Cabo Verde",
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "goalsDiff": 0,
+          "points": 0,
+          "owner": "James",
+          "rank": 1
+        },
+        {
+          "teamName": "Saudi Arabia",
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "goalsDiff": 0,
+          "points": 0,
+          "owner": "Tim",
+          "rank": 2
+        },
+        {
+          "teamName": "Spain",
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "goalsDiff": 0,
+          "points": 0,
+          "owner": "James",
+          "rank": 3
+        },
+        {
+          "teamName": "Uruguay",
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "goalsDiff": 0,
+          "points": 0,
+          "owner": "Tim",
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "groupName": "Group I",
+      "teams": [
+        {
+          "teamName": "France",
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "goalsDiff": 0,
+          "points": 0,
+          "owner": "Tim",
+          "rank": 1
+        },
+        {
+          "teamName": "Iraq",
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "goalsDiff": 0,
+          "points": 0,
+          "owner": "Tim",
+          "rank": 2
+        },
+        {
+          "teamName": "Norway",
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "goalsDiff": 0,
+          "points": 0,
+          "owner": "Griffin",
+          "rank": 3
+        },
+        {
+          "teamName": "Senegal",
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "goalsDiff": 0,
+          "points": 0,
+          "owner": "Tim",
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "groupName": "Group J",
+      "teams": [
+        {
+          "teamName": "Algeria",
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "goalsDiff": 0,
+          "points": 0,
+          "owner": "James",
+          "rank": 1
+        },
+        {
+          "teamName": "Argentina",
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "goalsDiff": 0,
+          "points": 0,
+          "owner": "Tim",
+          "rank": 2
+        },
+        {
+          "teamName": "Austria",
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "goalsDiff": 0,
+          "points": 0,
+          "owner": "Griffin",
+          "rank": 3
+        },
+        {
+          "teamName": "Jordan",
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "goalsDiff": 0,
+          "points": 0,
+          "owner": "James",
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "groupName": "Group K",
+      "teams": [
+        {
+          "teamName": "Colombia",
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "goalsDiff": 0,
+          "points": 0,
+          "owner": "James",
+          "rank": 1
+        },
+        {
+          "teamName": "DR Congo",
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "goalsDiff": 0,
+          "points": 0,
+          "owner": "Tim",
+          "rank": 2
+        },
+        {
+          "teamName": "Portugal",
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "goalsDiff": 0,
+          "points": 0,
+          "owner": "Griffin",
+          "rank": 3
+        },
+        {
+          "teamName": "Uzbekistan",
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "goalsDiff": 0,
+          "points": 0,
+          "owner": "James",
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "groupName": "Group L",
+      "teams": [
+        {
+          "teamName": "Croatia",
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "goalsDiff": 0,
+          "points": 0,
+          "owner": "James",
+          "rank": 1
+        },
+        {
+          "teamName": "England",
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "goalsDiff": 0,
+          "points": 0,
+          "owner": "James",
+          "rank": 2
+        },
+        {
+          "teamName": "Ghana",
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "goalsDiff": 0,
+          "points": 0,
+          "owner": "Griffin",
+          "rank": 3
+        },
+        {
+          "teamName": "Panama",
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "goalsDiff": 0,
+          "points": 0,
+          "owner": "Griffin",
+          "rank": 4
+        }
+      ]
+    }
+  ],
+  "recentResults": [
+    {
+      "date": "2026-06-12",
+      "round": "group_a",
+      "home": "Korea Republic",
+      "away": "Czechia",
+      "homeGoals": 2,
+      "awayGoals": 1,
+      "status": "FT"
+    },
+    {
+      "date": "2026-06-11",
+      "round": "group_a",
+      "home": "Mexico",
+      "away": "South Africa",
+      "homeGoals": 2,
+      "awayGoals": 0,
+      "status": "FT"
+    }
+  ],
+  "upcomingFixtures": [
+    {
+      "date": "2026-06-12",
+      "round": "group_b",
+      "home": "Canada",
+      "away": "Bosnia and Herzegovina",
+      "status": "NS"
+    },
+    {
+      "date": "2026-06-13",
+      "round": "group_d",
+      "home": "USA",
+      "away": "Paraguay",
+      "status": "NS"
+    },
+    {
+      "date": "2026-06-13",
+      "round": "group_c",
+      "home": "Brazil",
+      "away": "Morocco",
+      "status": "NS"
+    },
+    {
+      "date": "2026-06-13",
+      "round": "group_b",
+      "home": "Qatar",
+      "away": "Switzerland",
+      "status": "NS"
+    },
+    {
+      "date": "2026-06-14",
+      "round": "group_c",
+      "home": "Haiti",
+      "away": "Scotland",
+      "status": "NS"
+    },
+    {
+      "date": "2026-06-14",
+      "round": "group_d",
+      "home": "Australia",
+      "away": "Türkiye",
+      "status": "NS"
+    },
+    {
+      "date": "2026-06-14",
+      "round": "group_e",
+      "home": "Côte d'Ivoire",
+      "away": "Ecuador",
+      "status": "NS"
+    },
+    {
+      "date": "2026-06-14",
+      "round": "group_e",
+      "home": "Germany",
+      "away": "Curaçao",
+      "status": "NS"
+    },
+    {
+      "date": "2026-06-14",
+      "round": "group_f",
+      "home": "Netherlands",
+      "away": "Japan",
+      "status": "NS"
+    },
+    {
+      "date": "2026-06-15",
+      "round": "group_f",
+      "home": "Sweden",
+      "away": "Tunisia",
+      "status": "NS"
+    }
+  ]
 }

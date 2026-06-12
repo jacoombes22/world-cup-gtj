@@ -1,14 +1,9 @@
 // scripts/updateData.cjs
-//
-// This script runs via GitHub Actions or locally. It calls Zafronix API,
-// computes the fantasy leaderboard based on the scoring model, and writes
-// a single cached JSON file (public/data/leaderboard.json) that the frontend reads.
-
 require('dotenv').config();
 const fs = require('fs');
 const path = require('path');
 
-const API_KEY = process.env.API_FOOTBALL_KEY; // Reusing your existing environment key variable name
+const API_KEY = process.env.API_FOOTBALL_KEY; 
 const BASE_URL = 'https://api.zafronix.com/fifa/worldcup/v1';
 const SEASON = 2026;
 
@@ -25,28 +20,67 @@ const POINTS = {
 };
 
 const KNOCKOUT_ROUND_POINTS = {
-  'Round of 32': POINTS.ROUND_32,
-  'Round of 16': POINTS.ROUND_16,
-  'Quarter-finals': POINTS.QUARTERFINAL,
-  'Semi-finals': POINTS.SEMIFINAL,
-  'Final': POINTS.FINAL
+  'r32': POINTS.ROUND_32,
+  'r16': POINTS.ROUND_16,
+  'qf': POINTS.QUARTERFINAL,
+  'sf': POINTS.SEMIFINAL,
+  'final': POINTS.FINAL
 };
 
 const OWNERS = {
   Tim: [
-    "France", "Argentina", "Germany", "USA", "Switzerland", "Turkey",
-    "Uruguay", "Canada", "South Korea", "Bosnia and Herzegovina",
-    "Senegal", "Tunisia", "Iran", "DR Congo", "Saudi Arabia", "Iraq"
+    "France",
+    "Argentina",
+    "Germany",
+    "USA",
+    "Switzerland",
+    "Türkiye",
+    "Uruguay",
+    "Canada",
+    "South Korea",
+    "Bosnia and Herzegovina",
+    "Senegal",
+    "Tunisia",
+    "Iran",
+    "DR Congo",
+    "Saudi Arabia",
+    "Iraq"
   ],
   James: [
-    "Spain", "England", "Netherlands", "Morocco", "Colombia", "Ecuador",
-    "Sweden", "Scotland", "Paraguay", "Algeria", "New Zealand",
-    "Cape Verde", "Uzbekistan", "Qatar"
+    "Spain",
+    "England",
+    "Netherlands",
+    "Morocco",
+    "Colombia",
+    "Ecuador",
+    "Croatia",
+    "Sweden",
+    "Scotland",
+    "Paraguay",
+    "Algeria",
+    "New Zealand",
+    "Cabo Verde",
+    "Jordan",
+    "Uzbekistan",
+    "Qatar"
   ],
   Griffin: [
-    "Portugal", "Brazil", "Belgium", "Norway", "Japan", "Mexico",
-    "Austria", "Ivory Coast", "Czech Republic", "Egypt", "Ghana",
-    "Australia", "South Africa", "Panama", "Haiti", "Curacao"
+    "Portugal",
+    "Brazil",
+    "Belgium",
+    "Norway",
+    "Japan",
+    "Mexico",
+    "Austria",
+    "Ivory Coast",
+    "Czechia",
+    "Egypt",
+    "Ghana",
+    "Australia",
+    "South Africa",
+    "Panama",
+    "Haiti",
+    "Curacao"
   ]
 };
 
@@ -59,10 +93,13 @@ const TEAM_NAME_ALIASES = {
   "Curaçao": "Curacao",
   "Côte d'Ivoire": "Ivory Coast",
   "Congo DR": "DR Congo",
-  "DRC": "DR Congo"
+  "DRC": "DR Congo",
+  "IR Iran": "Iran",
+
 };
 
 function normalizeTeamName(name) {
+  if (!name) return "";
   return TEAM_NAME_ALIASES[name] || name;
 }
 
@@ -81,7 +118,6 @@ async function apiGet(endpoint, params) {
   Object.entries(params || {}).forEach(([k, v]) => url.searchParams.set(k, v));
 
   const res = await fetch(url.toString(), {
-    // FIX: Changed header from 'x-zafronix-key' to 'X-API-Key'
     headers: { 'X-API-Key': API_KEY } 
   });
 
@@ -90,135 +126,24 @@ async function apiGet(endpoint, params) {
   }
 
   const json = await res.json();
-  
   return json.data !== undefined ? json.data : json;
 }
 
-async function getTournaments() {
-    const data = await apiGet('/tournaments')
-    console.log(data)
-}
+// ----- Processing Logic Using Failsafe String Keys -----
 
-async function fetchStandings() {
-  // Path routing: /tournaments/2026
-  const data = await apiGet(`/tournaments/${SEASON}`);
-  
-  // If they return groups inside the tournament meta, use that.
-  // Otherwise fallback to data.groups or an empty array
-  return data.tournament?.standings || data.tournament?.groups || data.groups || [];
-}
+function processTournamentData(matches, ownerLookup) {
+  const teamPoints = {};
+  const groupsData = {};
 
-async function fetchAllFixtures() {
-  const data = await apiGet(`/tournaments/${SEASON}`);
-  
-  // Based on standard tournament exports, matches are usually delivered alongside teams
-  return data.matches || data.tournament?.matches || [];
-}
-
-async function fetchCurrentStatus() {
-  try {
-    const data = await apiGet(`/tournaments/${SEASON}`);
-    return data.tournament?.currentRound || data.tournament?.stage || "Group Stage";
-  } catch (e) {
-    console.warn('Could not fetch current status:', e.message);
-    return "Group Stage";
-  }
-}
-
-// ----- Scoring computations mapping to React View -----
-
-function computeGroupStageScores(standingsResponse, ownerLookup) {
-  const teamPoints = {}; 
-  const groupSummaries = [];
-
-  if (!standingsResponse || standingsResponse.length === 0) {
-    return { teamPoints, groupSummaries };
-  }
-
-  for (const groupBlock of standingsResponse) {
-    const groupName = groupBlock.groupName || 'Group';
-    const rows = [];
-
-    for (const row of groupBlock.teams) {
-      const teamName = normalizeTeamName(row.name);
-      const teamId = row.id;
-      const owner = ownerLookup[teamName] || null;
-
-      let points = 0;
-      const wins = row.wins || 0;
-      const draws = row.draws || 0;
-      points += wins * POINTS.GROUP_WIN;
-      points += draws * POINTS.GROUP_DRAW;
-
-      const played = row.played || 0;
-      const isGroupComplete = played >= 3; // 4-team World Cup groups play 3 matches
-
-      if (isGroupComplete) {
-        if (row.rank === 1) points += POINTS.GROUP_FIRST;
-        else if (row.rank === 2) points += POINTS.GROUP_SECOND;
-      }
-
-      teamPoints[teamId] = {
-        teamName,
-        teamId,
-        owner,
-        groupName,
-        rank: row.rank,
-        played,
-        wins,
-        draws,
-        losses: row.losses || 0,
-        goalsDiff: row.goalsDifference || 0,
-        groupPoints: points,
-        knockoutPoints: 0,
-        totalPoints: points
-      };
-
-      rows.push({
-        teamName,
-        rank: row.rank,
-        played,
-        wins,
-        draws,
-        losses: row.losses || 0,
-        goalsDiff: row.goalsDifference || 0,
-        points: row.points || 0,
-        owner
-      });
-    }
-
-    groupSummaries.push({ groupName, teams: rows });
-  }
-
-  return { teamPoints, groupSummaries };
-}
-
-function computeKnockoutScores(fixtures, teamPoints) {
-  for (const match of fixtures) {
-    const roundName = match.stage;
-    if (!roundName || !(roundName in KNOCKOUT_ROUND_POINTS)) continue;
-
-    if (match.status !== 'COMPLETED' && match.status !== 'FT') continue;
-
-    const homeGoals = match.homeScore;
-    const awayGoals = match.awayScore;
-    
-    let winnerId = match.winnerId;
-    if (!winnerId && homeGoals !== awayGoals) {
-      winnerId = homeGoals > awayGoals ? match.homeTeamId : match.awayTeamId;
-    }
-
-    if (!winnerId) continue; 
-
-    const pts = KNOCKOUT_ROUND_POINTS[roundName];
-
-    if (!teamPoints[winnerId]) {
-      teamPoints[winnerId] = {
-        teamName: normalizeTeamName(match.winnerName),
-        teamId: winnerId,
-        owner: null,
-        groupName: null,
-        rank: null,
+  // Initialize data frameworks for all drafted teams
+  for (const ownerTeams of Object.values(OWNERS)) {
+    for (const rawName of ownerTeams) {
+      const name = normalizeTeamName(rawName);
+      teamPoints[name] = {
+        teamName: name,
+        owner: ownerLookup[name] || null,
+        groupName: "Unknown",
+        rank: 0,
         played: 0,
         wins: 0,
         draws: 0,
@@ -229,13 +154,136 @@ function computeKnockoutScores(fixtures, teamPoints) {
         totalPoints: 0
       };
     }
-
-    teamPoints[winnerId].knockoutPoints += pts;
-    teamPoints[winnerId].totalPoints =
-      teamPoints[winnerId].groupPoints + teamPoints[winnerId].knockoutPoints;
   }
 
-  return teamPoints;
+  // Loop through every single match row
+  for (const match of matches) {
+    const stage = match.stage || "";
+    const homeName = normalizeTeamName(match.homeTeam);
+    const awayName = normalizeTeamName(match.awayTeam);
+    
+    // Skip placeholder data rows ("1A", "W73", etc.)
+    const isHomePlaceholder = !homeName || homeName.match(/^\d/) || homeName.startsWith('W');
+    const isAwayPlaceholder = !awayName || awayName.match(/^\d/) || awayName.startsWith('W');
+
+    const homeScore = match.homeScore;
+    const awayScore = match.awayScore;
+    const isPlayed = homeScore !== null && awayScore !== null;
+
+    // A) Process Group Stage Calculations
+    if (stage.startsWith('group_')) {
+      const groupLetter = stage.split('_')[1]?.toUpperCase() || 'Group';
+      const groupName = `Group ${groupLetter}`;
+
+      if (!isHomePlaceholder && teamPoints[homeName]) teamPoints[homeName].groupName = groupName;
+      if (!isAwayPlaceholder && teamPoints[awayName]) teamPoints[awayName].groupName = groupName;
+
+      // Initialize group lists
+      if (!groupsData[groupName]) groupsData[groupName] = {};
+      if (!isHomePlaceholder && !groupsData[groupName][homeName]) groupsData[groupName][homeName] = { wins:0, draws:0, losses:0, played:0, gd:0, pts:0 };
+      if (!isAwayPlaceholder && !groupsData[groupName][awayName]) groupsData[groupName][awayName] = { wins:0, draws:0, losses:0, played:0, gd:0, pts:0 };
+
+      if (isPlayed) {
+        if (!isHomePlaceholder) {
+          groupsData[groupName][homeName].played += 1;
+          groupsData[groupName][homeName].gd += (homeScore - awayScore);
+        }
+        if (!isAwayPlaceholder) {
+          groupsData[groupName][awayName].played += 1;
+          groupsData[groupName][awayName].gd += (awayScore - homeScore);
+        }
+
+        if (homeScore > awayScore) {
+          if (!isHomePlaceholder) {
+            groupsData[groupName][homeName].wins += 1;
+            groupsData[groupName][homeName].pts += 3;
+            if (teamPoints[homeName]) teamPoints[homeName].groupPoints += POINTS.GROUP_WIN;
+          }
+          if (!isAwayPlaceholder) groupsData[groupName][awayName].losses += 1;
+        } else if (awayScore > homeScore) {
+          if (!isAwayPlaceholder) {
+            groupsData[groupName][awayName].wins += 1;
+            groupsData[groupName][awayName].pts += 3;
+            if (teamPoints[awayName]) teamPoints[awayName].groupPoints += POINTS.GROUP_WIN;
+          }
+          if (!isHomePlaceholder) groupsData[groupName][homeName].losses += 1;
+        } else {
+          if (!isHomePlaceholder) {
+            groupsData[groupName][homeName].draws += 1;
+            groupsData[groupName][homeName].pts += 1;
+            if (teamPoints[homeName]) teamPoints[homeName].groupPoints += POINTS.GROUP_DRAW;
+          }
+          if (!isAwayPlaceholder) {
+            groupsData[groupName][awayName].draws += 1;
+            groupsData[groupName][awayName].pts += 1;
+            if (teamPoints[awayName]) teamPoints[awayName].groupPoints += POINTS.GROUP_DRAW;
+          }
+        }
+      }
+    }
+
+    // B) Process Knockout Progression Points
+    else if (isPlayed && stage in KNOCKOUT_ROUND_POINTS) {
+      let winner = null;
+      if (homeScore > awayScore) winner = homeName;
+      else if (awayScore > homeScore) winner = awayName;
+      else if (match.penalties) {
+        // If tied, check penalty winner properties
+        winner = match.penalties.homeScore > match.penalties.awayScore ? homeName : awayName;
+      }
+
+      if (winner && teamPoints[winner]) {
+        teamPoints[winner].knockoutPoints += KNOCKOUT_ROUND_POINTS[stage];
+      }
+    }
+  }
+
+  // Compile calculated Group arrays and apply ranks
+  const groupSummaries = [];
+  for (const [groupName, teamsMap] of Object.entries(groupsData)) {
+    const sortedTeams = Object.entries(teamsMap)
+      .map(([name, stats]) => ({
+        teamName: name,
+        played: stats.played,
+        wins: stats.wins,
+        draws: stats.draws,
+        losses: stats.losses,
+        goalsDiff: stats.gd,
+        points: stats.pts,
+        owner: ownerLookup[name] || null
+      }))
+      .sort((a, b) => b.points - a.points || b.goalsDiff - a.goalsDiff || a.teamName.localeCompare(b.teamName));
+
+    sortedTeams.forEach((team, index) => {
+      const rank = index + 1;
+      team.rank = rank;
+      
+      if (teamPoints[team.teamName]) {
+        const tp = teamPoints[team.teamName];
+        tp.played = team.played;
+        tp.wins = team.wins;
+        tp.draws = team.draws;
+        tp.losses = team.losses;
+        tp.goalsDiff = team.goalsDiff;
+        tp.rank = rank;
+
+        // Apply completion bonuses (Top 2 progress in 4-team group variants)
+        if (team.played >= 3) {
+          if (rank === 1) tp.groupPoints += POINTS.GROUP_FIRST;
+          else if (rank === 2) tp.groupPoints += POINTS.GROUP_SECOND;
+        }
+      }
+    });
+
+    groupSummaries.push({ groupName, teams: sortedTeams });
+  }
+
+  // Aggregate global totals
+  for (const tp of Object.values(teamPoints)) {
+    tp.totalPoints = tp.groupPoints + tp.knockoutPoints;
+  }
+
+  return { teamPoints, groupSummaries };
 }
 
 function buildOwnerLeaderboard(teamPoints) {
@@ -247,45 +295,14 @@ function buildOwnerLeaderboard(teamPoints) {
     ownerTeams[owner] = [];
   }
 
-  const seenTeamNames = new Set();
   for (const tp of Object.values(teamPoints)) {
     if (!tp.owner) continue;
-    seenTeamNames.add(tp.teamName);
     ownerTeams[tp.owner].push({
-      teamName: tp.teamName,
-      groupName: tp.groupName,
-      rank: tp.rank,
-      played: tp.played,
-      wins: tp.wins,
-      draws: tp.draws,
-      losses: tp.losses,
-      goalsDiff: tp.goalsDiff,
+      ...tp,
       groupPoints: Math.round(tp.groupPoints * 100) / 100,
-      knockoutPoints: tp.knockoutPoints,
       totalPoints: Math.round(tp.totalPoints * 100) / 100
     });
     ownerTotals[tp.owner] += tp.totalPoints;
-  }
-
-  for (const [owner, teams] of Object.entries(OWNERS)) {
-    for (const team of teams) {
-      const normalized = normalizeTeamName(team);
-      if (!seenTeamNames.has(normalized)) {
-        ownerTeams[owner].push({
-          teamName: normalized,
-          groupName: null,
-          rank: null,
-          played: 0,
-          wins: 0,
-          draws: 0,
-          losses: 0,
-          goalsDiff: 0,
-          groupPoints: 0,
-          knockoutPoints: 0,
-          totalPoints: 0
-        });
-      }
-    }
   }
 
   const leaderboard = Object.entries(ownerTotals)
@@ -301,32 +318,24 @@ function buildOwnerLeaderboard(teamPoints) {
 
 async function main() {
   if (!API_KEY) {
-    console.error('API_FOOTBALL_KEY is not configured in your .env variables. Aborting update.');
+    console.error('API_FOOTBALL_KEY is not configured in your environment context.');
     return;
   }
 
-  console.log('Connecting to Zafronix API...');
+  console.log('Connecting to Zafronix Engine...');
+  console.log(`Fetching matches pipeline data for year: ${SEASON}...`);
+  
+  // Directly targeting the live /matches stream
+  const fixtures = await apiGet('/matches', { year: SEASON });
 
-  console.log("verifying tournaments...")
-  // await getTournaments();
-
-  console.log('Fetching 2026 World Cup Standings...');
-  const standings = await fetchStandings();
-
-  console.log('Fetching 2026 World Cup Matches...');
-  const fixtures = await fetchAllFixtures();
-
-  console.log('Fetching current round status...');
-  const currentRound = await fetchCurrentStatus();
+  console.log(`Successfully pulled down ${fixtures.length || 0} match objects. Processing point maps...`);
 
   const ownerLookup = buildOwnerLookup();
-
-  const { teamPoints, groupSummaries } = computeGroupStageScores(standings, ownerLookup);
-  computeKnockoutScores(fixtures, teamPoints);
+  const { teamPoints, groupSummaries } = processTournamentData(fixtures, ownerLookup);
   const leaderboard = buildOwnerLeaderboard(teamPoints);
 
-  const finished = fixtures.filter(f => f.status === 'COMPLETED' || f.status === 'FT');
-  const upcoming = fixtures.filter(f => f.status === 'SCHEDULED' || f.status === 'NS');
+  const finished = fixtures.filter(f => f.homeScore !== null && f.awayScore !== null);
+  const upcoming = fixtures.filter(f => f.homeScore === null || f.awayScore === null);
 
   const recentResults = finished
     .sort((a, b) => new Date(b.date) - new Date(a.date))
@@ -334,11 +343,11 @@ async function main() {
     .map(f => ({
       date: f.date,
       round: f.stage,
-      home: f.homeTeamName,
-      away: f.awayTeamName,
+      home: f.homeTeam,
+      away: f.awayTeam,
       homeGoals: f.homeScore,
       awayGoals: f.awayScore,
-      status: f.status
+      status: "FT"
     }));
 
   const upcomingFixtures = upcoming
@@ -347,16 +356,16 @@ async function main() {
     .map(f => ({
       date: f.date,
       round: f.stage,
-      home: f.homeTeamName,
-      away: f.awayTeamName,
-      status: f.status
+      home: f.homeTeam,
+      away: f.awayTeam,
+      status: "NS"
     }));
 
   const output = {
     updatedAt: new Date().toISOString(),
-    currentRound: currentRound,
+    currentRound: fixtures.find(f => f.homeScore === null)?.stage || "Completed",
     leaderboard,
-    groups: groupSummaries,
+    groups: groupSummaries.sort((a,b) => a.groupName.localeCompare(b.groupName)),
     recentResults,
     upcomingFixtures
   };
@@ -367,10 +376,10 @@ async function main() {
     JSON.stringify(output, null, 2)
   );
 
-  console.log('Data updated successfully using Zafronix Engine.');
+  console.log('leaderboard.json cache compiled cleanly.');
 }
 
 main().catch(err => {
-  console.error('Failed to parse Zafronix structures:', err);
+  console.error('Processing Execution Interrupted:', err);
   process.exit(1);
 });
