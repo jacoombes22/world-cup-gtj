@@ -19,7 +19,7 @@ export default function App() {
             </svg>
           </div>
           <div className="masthead__text">
-            <p className="masthead__eyebrow">Fantasy Draft &mdash; Matchday Tracker</p>
+            <p className="masthead__eyebrow">Griffin | James | Tim</p>
             <h1 className="masthead__title">World Cup 2026</h1>
           </div>
         </div>
