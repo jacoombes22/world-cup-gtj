@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-06-13T19:57:13.294Z",
+  "updatedAt": "2026-06-13T21:23:09.232Z",
   "currentRound": "group_c",
   "leaderboard": [
     {
       "owner": "Tim",
-      "totalPoints": 2.66,
+      "totalPoints": 2.99,
       "teams": [
         {
           "teamName": "USA",
@@ -33,6 +33,20 @@
           "groupPoints": 1,
           "knockoutPoints": 0,
           "totalPoints": 1
+        },
+        {
+          "teamName": "Switzerland",
+          "owner": "Tim",
+          "groupName": "Group B",
+          "rank": 4,
+          "played": 1,
+          "wins": 0,
+          "draws": 1,
+          "losses": 0,
+          "goalsDiff": 0,
+          "groupPoints": 0.33,
+          "knockoutPoints": 0,
+          "totalPoints": 0.33
         },
         {
           "teamName": "Canada",
@@ -95,20 +109,6 @@
           "owner": "Tim",
           "groupName": "Group E",
           "rank": 3,
-          "played": 0,
-          "wins": 0,
-          "draws": 0,
-          "losses": 0,
-          "goalsDiff": 0,
-          "groupPoints": 0,
-          "knockoutPoints": 0,
-          "totalPoints": 0
-        },
-        {
-          "teamName": "Switzerland",
-          "owner": "Tim",
-          "groupName": "Group B",
-          "rank": 4,
           "played": 0,
           "wins": 0,
           "draws": 0,
@@ -464,8 +464,22 @@
     },
     {
       "owner": "James",
-      "totalPoints": 0,
+      "totalPoints": 0.33,
       "teams": [
+        {
+          "teamName": "Qatar",
+          "owner": "James",
+          "groupName": "Group B",
+          "rank": 3,
+          "played": 1,
+          "wins": 0,
+          "draws": 1,
+          "losses": 0,
+          "goalsDiff": 0,
+          "groupPoints": 0.33,
+          "knockoutPoints": 0,
+          "totalPoints": 0.33
+        },
         {
           "teamName": "Spain",
           "owner": "James",
@@ -675,20 +689,6 @@
           "groupPoints": 0,
           "knockoutPoints": 0,
           "totalPoints": 0
-        },
-        {
-          "teamName": "Qatar",
-          "owner": "James",
-          "groupName": "Group B",
-          "rank": 3,
-          "played": 0,
-          "wins": 0,
-          "draws": 0,
-          "losses": 0,
-          "goalsDiff": 0,
-          "groupPoints": 0,
-          "knockoutPoints": 0,
-          "totalPoints": 0
         }
       ]
     }
@@ -770,23 +770,23 @@
         },
         {
           "teamName": "Qatar",
-          "played": 0,
+          "played": 1,
           "wins": 0,
-          "draws": 0,
+          "draws": 1,
           "losses": 0,
           "goalsDiff": 0,
-          "points": 0,
+          "points": 1,
           "owner": "James",
           "rank": 3
         },
         {
           "teamName": "Switzerland",
-          "played": 0,
+          "played": 1,
           "wins": 0,
-          "draws": 0,
+          "draws": 1,
           "losses": 0,
           "goalsDiff": 0,
-          "points": 0,
+          "points": 1,
           "owner": "Tim",
           "rank": 4
         }
@@ -1294,6 +1294,15 @@
       "status": "FT"
     },
     {
+      "date": "2026-06-13",
+      "round": "group_b",
+      "home": "Qatar",
+      "away": "Switzerland",
+      "homeGoals": 1,
+      "awayGoals": 1,
+      "status": "FT"
+    },
+    {
       "date": "2026-06-12",
       "round": "group_a",
       "home": "Korea Republic",
@@ -1327,13 +1336,6 @@
       "round": "group_c",
       "home": "Brazil",
       "away": "Morocco",
-      "status": "NS"
-    },
-    {
-      "date": "2026-06-13",
-      "round": "group_b",
-      "home": "Qatar",
-      "away": "Switzerland",
       "status": "NS"
     },
     {
@@ -1390,6 +1392,13 @@
       "round": "group_h",
       "home": "Spain",
       "away": "Cabo Verde",
+      "status": "NS"
+    },
+    {
+      "date": "2026-06-15",
+      "round": "group_g",
+      "home": "Belgium",
+      "away": "Egypt",
       "status": "NS"
     }
   ]
