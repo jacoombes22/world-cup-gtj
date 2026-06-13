@@ -1,11 +1,25 @@
 {
-  "updatedAt": "2026-06-13T00:04:53.979Z",
-  "currentRound": "group_d",
+  "updatedAt": "2026-06-13T04:55:18.306Z",
+  "currentRound": "group_c",
   "leaderboard": [
     {
       "owner": "Tim",
-      "totalPoints": 1.66,
+      "totalPoints": 2.66,
       "teams": [
+        {
+          "teamName": "USA",
+          "owner": "Tim",
+          "groupName": "Group D",
+          "rank": 1,
+          "played": 1,
+          "wins": 1,
+          "draws": 0,
+          "losses": 0,
+          "goalsDiff": 3,
+          "groupPoints": 1,
+          "knockoutPoints": 0,
+          "totalPoints": 1
+        },
         {
           "teamName": "South Korea",
           "owner": "Tim",
@@ -81,20 +95,6 @@
           "owner": "Tim",
           "groupName": "Group E",
           "rank": 3,
-          "played": 0,
-          "wins": 0,
-          "draws": 0,
-          "losses": 0,
-          "goalsDiff": 0,
-          "groupPoints": 0,
-          "knockoutPoints": 0,
-          "totalPoints": 0
-        },
-        {
-          "teamName": "USA",
-          "owner": "Tim",
-          "groupName": "Group D",
-          "rank": 4,
           "played": 0,
           "wins": 0,
           "draws": 0,
@@ -394,7 +394,7 @@
           "teamName": "Australia",
           "owner": "Griffin",
           "groupName": "Group D",
-          "rank": 1,
+          "rank": 2,
           "played": 0,
           "wins": 0,
           "draws": 0,
@@ -596,12 +596,12 @@
           "teamName": "Paraguay",
           "owner": "James",
           "groupName": "Group D",
-          "rank": 2,
-          "played": 0,
+          "rank": 4,
+          "played": 1,
           "wins": 0,
           "draws": 0,
-          "losses": 0,
-          "goalsDiff": 0,
+          "losses": 1,
+          "goalsDiff": -3,
           "groupPoints": 0,
           "knockoutPoints": 0,
           "totalPoints": 0
@@ -845,6 +845,17 @@
       "groupName": "Group D",
       "teams": [
         {
+          "teamName": "USA",
+          "played": 1,
+          "wins": 1,
+          "draws": 0,
+          "losses": 0,
+          "goalsDiff": 3,
+          "points": 3,
+          "owner": "Tim",
+          "rank": 1
+        },
+        {
           "teamName": "Australia",
           "played": 0,
           "wins": 0,
@@ -853,17 +864,6 @@
           "goalsDiff": 0,
           "points": 0,
           "owner": "Griffin",
-          "rank": 1
-        },
-        {
-          "teamName": "Paraguay",
-          "played": 0,
-          "wins": 0,
-          "draws": 0,
-          "losses": 0,
-          "goalsDiff": 0,
-          "points": 0,
-          "owner": "James",
           "rank": 2
         },
         {
@@ -878,14 +878,14 @@
           "rank": 3
         },
         {
-          "teamName": "USA",
-          "played": 0,
+          "teamName": "Paraguay",
+          "played": 1,
           "wins": 0,
           "draws": 0,
-          "losses": 0,
-          "goalsDiff": 0,
+          "losses": 1,
+          "goalsDiff": -3,
           "points": 0,
-          "owner": "Tim",
+          "owner": "James",
           "rank": 4
         }
       ]
@@ -1285,6 +1285,15 @@
   ],
   "recentResults": [
     {
+      "date": "2026-06-13",
+      "round": "group_d",
+      "home": "USA",
+      "away": "Paraguay",
+      "homeGoals": 4,
+      "awayGoals": 1,
+      "status": "FT"
+    },
+    {
       "date": "2026-06-12",
       "round": "group_a",
       "home": "Korea Republic",
@@ -1313,13 +1322,6 @@
     }
   ],
   "upcomingFixtures": [
-    {
-      "date": "2026-06-13",
-      "round": "group_d",
-      "home": "USA",
-      "away": "Paraguay",
-      "status": "NS"
-    },
     {
       "date": "2026-06-13",
       "round": "group_c",
@@ -1381,6 +1383,13 @@
       "round": "group_h",
       "home": "Saudi Arabia",
       "away": "Uruguay",
+      "status": "NS"
+    },
+    {
+      "date": "2026-06-15",
+      "round": "group_h",
+      "home": "Spain",
+      "away": "Cabo Verde",
       "status": "NS"
     }
   ]
