@@ -1,11 +1,25 @@
 {
-  "updatedAt": "2026-06-14T18:47:46.503Z",
+  "updatedAt": "2026-06-14T20:19:50.716Z",
   "currentRound": "group_e",
   "leaderboard": [
     {
       "owner": "Tim",
-      "totalPoints": 2.99,
+      "totalPoints": 3.99,
       "teams": [
+        {
+          "teamName": "Germany",
+          "owner": "Tim",
+          "groupName": "Group E",
+          "rank": 1,
+          "played": 1,
+          "wins": 1,
+          "draws": 0,
+          "losses": 0,
+          "goalsDiff": 6,
+          "groupPoints": 1,
+          "knockoutPoints": 0,
+          "totalPoints": 1
+        },
         {
           "teamName": "USA",
           "owner": "Tim",
@@ -95,20 +109,6 @@
           "owner": "Tim",
           "groupName": "Group J",
           "rank": 2,
-          "played": 0,
-          "wins": 0,
-          "draws": 0,
-          "losses": 0,
-          "goalsDiff": 0,
-          "groupPoints": 0,
-          "knockoutPoints": 0,
-          "totalPoints": 0
-        },
-        {
-          "teamName": "Germany",
-          "owner": "Tim",
-          "groupName": "Group E",
-          "rank": 3,
           "played": 0,
           "wins": 0,
           "draws": 0,
@@ -352,7 +352,7 @@
           "teamName": "Ivory Coast",
           "owner": "Griffin",
           "groupName": "Group E",
-          "rank": 4,
+          "rank": 3,
           "played": 0,
           "wins": 0,
           "draws": 0,
@@ -450,12 +450,12 @@
           "teamName": "Curacao",
           "owner": "Griffin",
           "groupName": "Group E",
-          "rank": 1,
-          "played": 0,
+          "rank": 4,
+          "played": 1,
           "wins": 0,
           "draws": 0,
-          "losses": 0,
-          "goalsDiff": 0,
+          "losses": 1,
+          "goalsDiff": -6,
           "groupPoints": 0,
           "knockoutPoints": 0,
           "totalPoints": 0
@@ -894,14 +894,14 @@
       "groupName": "Group E",
       "teams": [
         {
-          "teamName": "Curacao",
-          "played": 0,
-          "wins": 0,
+          "teamName": "Germany",
+          "played": 1,
+          "wins": 1,
           "draws": 0,
           "losses": 0,
-          "goalsDiff": 0,
-          "points": 0,
-          "owner": "Griffin",
+          "goalsDiff": 6,
+          "points": 3,
+          "owner": "Tim",
           "rank": 1
         },
         {
@@ -916,23 +916,23 @@
           "rank": 2
         },
         {
-          "teamName": "Germany",
-          "played": 0,
-          "wins": 0,
-          "draws": 0,
-          "losses": 0,
-          "goalsDiff": 0,
-          "points": 0,
-          "owner": "Tim",
-          "rank": 3
-        },
-        {
           "teamName": "Ivory Coast",
           "played": 0,
           "wins": 0,
           "draws": 0,
           "losses": 0,
           "goalsDiff": 0,
+          "points": 0,
+          "owner": "Griffin",
+          "rank": 3
+        },
+        {
+          "teamName": "Curacao",
+          "played": 1,
+          "wins": 0,
+          "draws": 0,
+          "losses": 1,
+          "goalsDiff": -6,
           "points": 0,
           "owner": "Griffin",
           "rank": 4
@@ -1303,6 +1303,15 @@
       "status": "FT"
     },
     {
+      "date": "2026-06-14",
+      "round": "group_e",
+      "home": "Germany",
+      "away": "Curaçao",
+      "homeGoals": 7,
+      "awayGoals": 1,
+      "status": "FT"
+    },
+    {
       "date": "2026-06-13",
       "round": "group_d",
       "home": "USA",
@@ -1367,13 +1376,6 @@
     },
     {
       "date": "2026-06-14",
-      "round": "group_e",
-      "home": "Germany",
-      "away": "Curaçao",
-      "status": "NS"
-    },
-    {
-      "date": "2026-06-14",
       "round": "group_f",
       "home": "Netherlands",
       "away": "Japan",
@@ -1426,6 +1428,13 @@
       "round": "group_i",
       "home": "Iraq",
       "away": "Norway",
+      "status": "NS"
+    },
+    {
+      "date": "2026-06-17",
+      "round": "group_j",
+      "home": "Argentina",
+      "away": "Algeria",
       "status": "NS"
     }
   ]
