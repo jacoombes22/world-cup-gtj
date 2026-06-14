@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-14T21:47:16.384Z",
+  "updatedAt": "2026-06-14T23:11:31.262Z",
   "currentRound": "group_e",
   "leaderboard": [
     {
@@ -234,7 +234,7 @@
     },
     {
       "owner": "Griffin",
-      "totalPoints": 2.33,
+      "totalPoints": 2.66,
       "teams": [
         {
           "teamName": "Mexico",
@@ -279,6 +279,20 @@
           "totalPoints": 0.33
         },
         {
+          "teamName": "Japan",
+          "owner": "Griffin",
+          "groupName": "Group F",
+          "rank": 1,
+          "played": 1,
+          "wins": 0,
+          "draws": 1,
+          "losses": 0,
+          "goalsDiff": 0,
+          "groupPoints": 0.33,
+          "knockoutPoints": 0,
+          "totalPoints": 0.33
+        },
+        {
           "teamName": "Portugal",
           "owner": "Griffin",
           "groupName": "Group K",
@@ -311,20 +325,6 @@
           "owner": "Griffin",
           "groupName": "Group I",
           "rank": 3,
-          "played": 0,
-          "wins": 0,
-          "draws": 0,
-          "losses": 0,
-          "goalsDiff": 0,
-          "groupPoints": 0,
-          "knockoutPoints": 0,
-          "totalPoints": 0
-        },
-        {
-          "teamName": "Japan",
-          "owner": "Griffin",
-          "groupName": "Group F",
-          "rank": 1,
           "played": 0,
           "wins": 0,
           "draws": 0,
@@ -464,7 +464,7 @@
     },
     {
       "owner": "James",
-      "totalPoints": 1.66,
+      "totalPoints": 1.99,
       "teams": [
         {
           "teamName": "Scotland",
@@ -479,6 +479,20 @@
           "groupPoints": 1,
           "knockoutPoints": 0,
           "totalPoints": 1
+        },
+        {
+          "teamName": "Netherlands",
+          "owner": "James",
+          "groupName": "Group F",
+          "rank": 2,
+          "played": 1,
+          "wins": 0,
+          "draws": 1,
+          "losses": 0,
+          "goalsDiff": 0,
+          "groupPoints": 0.33,
+          "knockoutPoints": 0,
+          "totalPoints": 0.33
         },
         {
           "teamName": "Morocco",
@@ -526,20 +540,6 @@
           "teamName": "England",
           "owner": "James",
           "groupName": "Group L",
-          "rank": 2,
-          "played": 0,
-          "wins": 0,
-          "draws": 0,
-          "losses": 0,
-          "goalsDiff": 0,
-          "groupPoints": 0,
-          "knockoutPoints": 0,
-          "totalPoints": 0
-        },
-        {
-          "teamName": "Netherlands",
-          "owner": "James",
-          "groupName": "Group F",
           "rank": 2,
           "played": 0,
           "wins": 0,
@@ -944,23 +944,23 @@
       "teams": [
         {
           "teamName": "Japan",
-          "played": 0,
+          "played": 1,
           "wins": 0,
-          "draws": 0,
+          "draws": 1,
           "losses": 0,
           "goalsDiff": 0,
-          "points": 0,
+          "points": 1,
           "owner": "Griffin",
           "rank": 1
         },
         {
           "teamName": "Netherlands",
-          "played": 0,
+          "played": 1,
           "wins": 0,
-          "draws": 0,
+          "draws": 1,
           "losses": 0,
           "goalsDiff": 0,
-          "points": 0,
+          "points": 1,
           "owner": "James",
           "rank": 2
         },
@@ -1312,6 +1312,15 @@
       "status": "FT"
     },
     {
+      "date": "2026-06-14",
+      "round": "group_f",
+      "home": "Netherlands",
+      "away": "Japan",
+      "homeGoals": 2,
+      "awayGoals": 2,
+      "status": "FT"
+    },
+    {
       "date": "2026-06-13",
       "round": "group_d",
       "home": "USA",
@@ -1375,13 +1384,6 @@
       "status": "NS"
     },
     {
-      "date": "2026-06-14",
-      "round": "group_f",
-      "home": "Netherlands",
-      "away": "Japan",
-      "status": "NS"
-    },
-    {
       "date": "2026-06-15",
       "round": "group_f",
       "home": "Sweden",
@@ -1435,6 +1437,13 @@
       "round": "group_j",
       "home": "Argentina",
       "away": "Algeria",
+      "status": "NS"
+    },
+    {
+      "date": "2026-06-17",
+      "round": "group_j",
+      "home": "Austria",
+      "away": "Jordan",
       "status": "NS"
     }
   ]
