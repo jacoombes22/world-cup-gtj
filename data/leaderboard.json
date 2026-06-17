@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-06-17T01:44:29.760Z",
-  "currentRound": "group_j",
+  "updatedAt": "2026-06-17T07:13:54.719Z",
+  "currentRound": "group_l",
   "leaderboard": [
     {
       "owner": "Tim",
-      "totalPoints": 5.98,
+      "totalPoints": 6.98,
       "teams": [
         {
           "teamName": "France",
@@ -16,6 +16,20 @@
           "draws": 0,
           "losses": 0,
           "goalsDiff": 2,
+          "groupPoints": 1,
+          "knockoutPoints": 0,
+          "totalPoints": 1
+        },
+        {
+          "teamName": "Argentina",
+          "owner": "Tim",
+          "groupName": "Group J",
+          "rank": 1,
+          "played": 1,
+          "wins": 1,
+          "draws": 0,
+          "losses": 0,
+          "goalsDiff": 3,
           "groupPoints": 1,
           "knockoutPoints": 0,
           "totalPoints": 1
@@ -147,20 +161,6 @@
           "totalPoints": 0.33
         },
         {
-          "teamName": "Argentina",
-          "owner": "Tim",
-          "groupName": "Group J",
-          "rank": 2,
-          "played": 0,
-          "wins": 0,
-          "draws": 0,
-          "losses": 0,
-          "goalsDiff": 0,
-          "groupPoints": 0,
-          "knockoutPoints": 0,
-          "totalPoints": 0
-        },
-        {
           "teamName": "Türkiye",
           "owner": "Tim",
           "groupName": "Group D",
@@ -234,7 +234,7 @@
     },
     {
       "owner": "Griffin",
-      "totalPoints": 5.32,
+      "totalPoints": 6.32,
       "teams": [
         {
           "teamName": "Norway",
@@ -255,6 +255,20 @@
           "owner": "Griffin",
           "groupName": "Group A",
           "rank": 1,
+          "played": 1,
+          "wins": 1,
+          "draws": 0,
+          "losses": 0,
+          "goalsDiff": 2,
+          "groupPoints": 1,
+          "knockoutPoints": 0,
+          "totalPoints": 1
+        },
+        {
+          "teamName": "Austria",
+          "owner": "Griffin",
+          "groupName": "Group J",
+          "rank": 2,
           "played": 1,
           "wins": 1,
           "draws": 0,
@@ -352,20 +366,6 @@
           "teamName": "Portugal",
           "owner": "Griffin",
           "groupName": "Group K",
-          "rank": 3,
-          "played": 0,
-          "wins": 0,
-          "draws": 0,
-          "losses": 0,
-          "goalsDiff": 0,
-          "groupPoints": 0,
-          "knockoutPoints": 0,
-          "totalPoints": 0
-        },
-        {
-          "teamName": "Austria",
-          "owner": "Griffin",
-          "groupName": "Group J",
           "rank": 3,
           "played": 0,
           "wins": 0,
@@ -652,12 +652,12 @@
           "teamName": "Algeria",
           "owner": "James",
           "groupName": "Group J",
-          "rank": 1,
-          "played": 0,
+          "rank": 4,
+          "played": 1,
           "wins": 0,
           "draws": 0,
-          "losses": 0,
-          "goalsDiff": 0,
+          "losses": 1,
+          "goalsDiff": -3,
           "groupPoints": 0,
           "knockoutPoints": 0,
           "totalPoints": 0
@@ -666,12 +666,12 @@
           "teamName": "Jordan",
           "owner": "James",
           "groupName": "Group J",
-          "rank": 4,
-          "played": 0,
+          "rank": 3,
+          "played": 1,
           "wins": 0,
           "draws": 0,
-          "losses": 0,
-          "goalsDiff": 0,
+          "losses": 1,
+          "goalsDiff": -2,
           "groupPoints": 0,
           "knockoutPoints": 0,
           "totalPoints": 0
@@ -1139,45 +1139,45 @@
       "groupName": "Group J",
       "teams": [
         {
-          "teamName": "Algeria",
-          "played": 0,
-          "wins": 0,
+          "teamName": "Argentina",
+          "played": 1,
+          "wins": 1,
           "draws": 0,
           "losses": 0,
-          "goalsDiff": 0,
-          "points": 0,
-          "owner": "James",
+          "goalsDiff": 3,
+          "points": 3,
+          "owner": "Tim",
           "rank": 1
         },
         {
-          "teamName": "Argentina",
-          "played": 0,
-          "wins": 0,
+          "teamName": "Austria",
+          "played": 1,
+          "wins": 1,
           "draws": 0,
           "losses": 0,
-          "goalsDiff": 0,
-          "points": 0,
-          "owner": "Tim",
+          "goalsDiff": 2,
+          "points": 3,
+          "owner": "Griffin",
           "rank": 2
         },
         {
-          "teamName": "Austria",
-          "played": 0,
+          "teamName": "Jordan",
+          "played": 1,
           "wins": 0,
           "draws": 0,
-          "losses": 0,
-          "goalsDiff": 0,
+          "losses": 1,
+          "goalsDiff": -2,
           "points": 0,
-          "owner": "Griffin",
+          "owner": "James",
           "rank": 3
         },
         {
-          "teamName": "Jordan",
-          "played": 0,
+          "teamName": "Algeria",
+          "played": 1,
           "wins": 0,
           "draws": 0,
-          "losses": 0,
-          "goalsDiff": 0,
+          "losses": 1,
+          "goalsDiff": -3,
           "points": 0,
           "owner": "James",
           "rank": 4
@@ -1285,6 +1285,24 @@
   ],
   "recentResults": [
     {
+      "date": "2026-06-17",
+      "round": "group_j",
+      "home": "Argentina",
+      "away": "Algeria",
+      "homeGoals": 3,
+      "awayGoals": 0,
+      "status": "FT"
+    },
+    {
+      "date": "2026-06-17",
+      "round": "group_j",
+      "home": "Austria",
+      "away": "Jordan",
+      "homeGoals": 3,
+      "awayGoals": 1,
+      "status": "FT"
+    },
+    {
       "date": "2026-06-16",
       "round": "group_g",
       "home": "IR Iran",
@@ -1298,8 +1316,8 @@
       "round": "group_i",
       "home": "France",
       "away": "Senegal",
-      "homeGoals": 2,
-      "awayGoals": 0,
+      "homeGoals": 3,
+      "awayGoals": 1,
       "status": "FT"
     },
     {
@@ -1355,41 +1373,9 @@
       "homeGoals": 0,
       "awayGoals": 1,
       "status": "FT"
-    },
-    {
-      "date": "2026-06-14",
-      "round": "group_d",
-      "home": "Australia",
-      "away": "Türkiye",
-      "homeGoals": 2,
-      "awayGoals": 0,
-      "status": "FT"
-    },
-    {
-      "date": "2026-06-14",
-      "round": "group_e",
-      "home": "Côte d'Ivoire",
-      "away": "Ecuador",
-      "homeGoals": 1,
-      "awayGoals": 0,
-      "status": "FT"
     }
   ],
   "upcomingFixtures": [
-    {
-      "date": "2026-06-17",
-      "round": "group_j",
-      "home": "Argentina",
-      "away": "Algeria",
-      "status": "NS"
-    },
-    {
-      "date": "2026-06-17",
-      "round": "group_j",
-      "home": "Austria",
-      "away": "Jordan",
-      "status": "NS"
-    },
     {
       "date": "2026-06-17",
       "round": "group_l",
@@ -1444,6 +1430,20 @@
       "round": "group_a",
       "home": "Mexico",
       "away": "Korea Republic",
+      "status": "NS"
+    },
+    {
+      "date": "2026-06-19",
+      "round": "group_c",
+      "home": "Scotland",
+      "away": "Morocco",
+      "status": "NS"
+    },
+    {
+      "date": "2026-06-19",
+      "round": "group_d",
+      "home": "USA",
+      "away": "Australia",
       "status": "NS"
     }
   ]
