@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-06-16T23:08:28.563Z",
-  "currentRound": "group_i",
+  "updatedAt": "2026-06-17T01:44:29.760Z",
+  "currentRound": "group_j",
   "leaderboard": [
     {
       "owner": "Tim",
@@ -10,7 +10,7 @@
           "teamName": "France",
           "owner": "Tim",
           "groupName": "Group I",
-          "rank": 1,
+          "rank": 2,
           "played": 1,
           "wins": 1,
           "draws": 0,
@@ -178,7 +178,7 @@
           "teamName": "Senegal",
           "owner": "Tim",
           "groupName": "Group I",
-          "rank": 4,
+          "rank": 3,
           "played": 1,
           "wins": 0,
           "draws": 0,
@@ -220,12 +220,12 @@
           "teamName": "Iraq",
           "owner": "Tim",
           "groupName": "Group I",
-          "rank": 2,
-          "played": 0,
+          "rank": 4,
+          "played": 1,
           "wins": 0,
           "draws": 0,
-          "losses": 0,
-          "goalsDiff": 0,
+          "losses": 1,
+          "goalsDiff": -3,
           "groupPoints": 0,
           "knockoutPoints": 0,
           "totalPoints": 0
@@ -234,8 +234,22 @@
     },
     {
       "owner": "Griffin",
-      "totalPoints": 4.32,
+      "totalPoints": 5.32,
       "teams": [
+        {
+          "teamName": "Norway",
+          "owner": "Griffin",
+          "groupName": "Group I",
+          "rank": 1,
+          "played": 1,
+          "wins": 1,
+          "draws": 0,
+          "losses": 0,
+          "goalsDiff": 3,
+          "groupPoints": 1,
+          "knockoutPoints": 0,
+          "totalPoints": 1
+        },
         {
           "teamName": "Mexico",
           "owner": "Griffin",
@@ -338,20 +352,6 @@
           "teamName": "Portugal",
           "owner": "Griffin",
           "groupName": "Group K",
-          "rank": 3,
-          "played": 0,
-          "wins": 0,
-          "draws": 0,
-          "losses": 0,
-          "goalsDiff": 0,
-          "groupPoints": 0,
-          "knockoutPoints": 0,
-          "totalPoints": 0
-        },
-        {
-          "teamName": "Norway",
-          "owner": "Griffin",
-          "groupName": "Group I",
           "rank": 3,
           "played": 0,
           "wins": 0,
@@ -1090,6 +1090,17 @@
       "groupName": "Group I",
       "teams": [
         {
+          "teamName": "Norway",
+          "played": 1,
+          "wins": 1,
+          "draws": 0,
+          "losses": 0,
+          "goalsDiff": 3,
+          "points": 3,
+          "owner": "Griffin",
+          "rank": 1
+        },
+        {
           "teamName": "France",
           "played": 1,
           "wins": 1,
@@ -1098,29 +1109,7 @@
           "goalsDiff": 2,
           "points": 3,
           "owner": "Tim",
-          "rank": 1
-        },
-        {
-          "teamName": "Iraq",
-          "played": 0,
-          "wins": 0,
-          "draws": 0,
-          "losses": 0,
-          "goalsDiff": 0,
-          "points": 0,
-          "owner": "Tim",
           "rank": 2
-        },
-        {
-          "teamName": "Norway",
-          "played": 0,
-          "wins": 0,
-          "draws": 0,
-          "losses": 0,
-          "goalsDiff": 0,
-          "points": 0,
-          "owner": "Griffin",
-          "rank": 3
         },
         {
           "teamName": "Senegal",
@@ -1129,6 +1118,17 @@
           "draws": 0,
           "losses": 1,
           "goalsDiff": -2,
+          "points": 0,
+          "owner": "Tim",
+          "rank": 3
+        },
+        {
+          "teamName": "Iraq",
+          "played": 1,
+          "wins": 0,
+          "draws": 0,
+          "losses": 1,
+          "goalsDiff": -3,
           "points": 0,
           "owner": "Tim",
           "rank": 4
@@ -1303,6 +1303,15 @@
       "status": "FT"
     },
     {
+      "date": "2026-06-16",
+      "round": "group_i",
+      "home": "Iraq",
+      "away": "Norway",
+      "homeGoals": 1,
+      "awayGoals": 4,
+      "status": "FT"
+    },
+    {
       "date": "2026-06-15",
       "round": "group_f",
       "home": "Sweden",
@@ -1364,25 +1373,9 @@
       "homeGoals": 1,
       "awayGoals": 0,
       "status": "FT"
-    },
-    {
-      "date": "2026-06-14",
-      "round": "group_e",
-      "home": "Germany",
-      "away": "Curaçao",
-      "homeGoals": 7,
-      "awayGoals": 1,
-      "status": "FT"
     }
   ],
   "upcomingFixtures": [
-    {
-      "date": "2026-06-16",
-      "round": "group_i",
-      "home": "Iraq",
-      "away": "Norway",
-      "status": "NS"
-    },
     {
       "date": "2026-06-17",
       "round": "group_j",
@@ -1444,6 +1437,13 @@
       "round": "group_b",
       "home": "Canada",
       "away": "Qatar",
+      "status": "NS"
+    },
+    {
+      "date": "2026-06-19",
+      "round": "group_a",
+      "home": "Mexico",
+      "away": "Korea Republic",
       "status": "NS"
     }
   ]
