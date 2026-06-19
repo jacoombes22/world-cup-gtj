@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-06-19T02:21:10.588Z",
-  "currentRound": "group_a",
+  "updatedAt": "2026-06-19T08:18:35.256Z",
+  "currentRound": "group_c",
   "leaderboard": [
     {
       "owner": "Tim",
@@ -95,11 +95,11 @@
           "owner": "Tim",
           "groupName": "Group A",
           "rank": 2,
-          "played": 1,
+          "played": 2,
           "wins": 1,
           "draws": 0,
-          "losses": 0,
-          "goalsDiff": 1,
+          "losses": 1,
+          "goalsDiff": 0,
           "groupPoints": 1,
           "knockoutPoints": 0,
           "totalPoints": 1
@@ -234,8 +234,22 @@
     },
     {
       "owner": "Griffin",
-      "totalPoints": 8.31,
+      "totalPoints": 9.31,
       "teams": [
+        {
+          "teamName": "Mexico",
+          "owner": "Griffin",
+          "groupName": "Group A",
+          "rank": 1,
+          "played": 2,
+          "wins": 2,
+          "draws": 0,
+          "losses": 0,
+          "goalsDiff": 3,
+          "groupPoints": 2,
+          "knockoutPoints": 0,
+          "totalPoints": 2
+        },
         {
           "teamName": "Norway",
           "owner": "Griffin",
@@ -246,20 +260,6 @@
           "draws": 0,
           "losses": 0,
           "goalsDiff": 3,
-          "groupPoints": 1,
-          "knockoutPoints": 0,
-          "totalPoints": 1
-        },
-        {
-          "teamName": "Mexico",
-          "owner": "Griffin",
-          "groupName": "Group A",
-          "rank": 1,
-          "played": 1,
-          "wins": 1,
-          "draws": 0,
-          "losses": 0,
-          "goalsDiff": 2,
           "groupPoints": 1,
           "knockoutPoints": 0,
           "totalPoints": 1
@@ -699,22 +699,22 @@
       "teams": [
         {
           "teamName": "Mexico",
-          "played": 1,
-          "wins": 1,
+          "played": 2,
+          "wins": 2,
           "draws": 0,
           "losses": 0,
-          "goalsDiff": 2,
-          "points": 3,
+          "goalsDiff": 3,
+          "points": 6,
           "owner": "Griffin",
           "rank": 1
         },
         {
           "teamName": "South Korea",
-          "played": 1,
+          "played": 2,
           "wins": 1,
           "draws": 0,
-          "losses": 0,
-          "goalsDiff": 1,
+          "losses": 1,
+          "goalsDiff": 0,
           "points": 3,
           "owner": "Tim",
           "rank": 2
@@ -1285,6 +1285,15 @@
   ],
   "recentResults": [
     {
+      "date": "2026-06-19",
+      "round": "group_a",
+      "home": "Mexico",
+      "away": "Korea Republic",
+      "homeGoals": 1,
+      "awayGoals": 0,
+      "status": "FT"
+    },
+    {
       "date": "2026-06-18",
       "round": "group_k",
       "home": "Uzbekistan",
@@ -1364,25 +1373,9 @@
       "homeGoals": 1,
       "awayGoals": 1,
       "status": "FT"
-    },
-    {
-      "date": "2026-06-16",
-      "round": "group_g",
-      "home": "IR Iran",
-      "away": "New Zealand",
-      "homeGoals": 2,
-      "awayGoals": 2,
-      "status": "FT"
     }
   ],
   "upcomingFixtures": [
-    {
-      "date": "2026-06-19",
-      "round": "group_a",
-      "home": "Mexico",
-      "away": "Korea Republic",
-      "status": "NS"
-    },
     {
       "date": "2026-06-19",
       "round": "group_c",
@@ -1444,6 +1437,13 @@
       "round": "group_h",
       "home": "Uruguay",
       "away": "Cabo Verde",
+      "status": "NS"
+    },
+    {
+      "date": "2026-06-21",
+      "round": "group_h",
+      "home": "Spain",
+      "away": "Saudi Arabia",
       "status": "NS"
     }
   ]
