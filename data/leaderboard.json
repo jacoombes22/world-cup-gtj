@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-06-19T23:47:36.991Z",
-  "currentRound": "group_c",
+  "updatedAt": "2026-06-20T03:56:56.509Z",
+  "currentRound": "group_d",
   "leaderboard": [
     {
       "owner": "Tim",
@@ -234,7 +234,7 @@
     },
     {
       "owner": "Griffin",
-      "totalPoints": 9.31,
+      "totalPoints": 10.31,
       "teams": [
         {
           "teamName": "Mexico",
@@ -249,6 +249,20 @@
           "groupPoints": 2,
           "knockoutPoints": 0,
           "totalPoints": 2
+        },
+        {
+          "teamName": "Brazil",
+          "owner": "Griffin",
+          "groupName": "Group C",
+          "rank": 1,
+          "played": 2,
+          "wins": 1,
+          "draws": 1,
+          "losses": 0,
+          "goalsDiff": 3,
+          "groupPoints": 1.33,
+          "knockoutPoints": 0,
+          "totalPoints": 1.33
         },
         {
           "teamName": "Norway",
@@ -325,20 +339,6 @@
           "owner": "Griffin",
           "groupName": "Group K",
           "rank": 3,
-          "played": 1,
-          "wins": 0,
-          "draws": 1,
-          "losses": 0,
-          "goalsDiff": 0,
-          "groupPoints": 0.33,
-          "knockoutPoints": 0,
-          "totalPoints": 0.33
-        },
-        {
-          "teamName": "Brazil",
-          "owner": "Griffin",
-          "groupName": "Group C",
-          "rank": 2,
           "played": 1,
           "wins": 0,
           "draws": 1,
@@ -437,11 +437,11 @@
           "owner": "Griffin",
           "groupName": "Group C",
           "rank": 4,
-          "played": 1,
+          "played": 2,
           "wins": 0,
           "draws": 0,
-          "losses": 1,
-          "goalsDiff": -1,
+          "losses": 2,
+          "goalsDiff": -4,
           "groupPoints": 0,
           "knockoutPoints": 0,
           "totalPoints": 0
@@ -464,8 +464,22 @@
     },
     {
       "owner": "James",
-      "totalPoints": 5.98,
+      "totalPoints": 6.98,
       "teams": [
+        {
+          "teamName": "Morocco",
+          "owner": "James",
+          "groupName": "Group C",
+          "rank": 2,
+          "played": 2,
+          "wins": 1,
+          "draws": 1,
+          "losses": 0,
+          "goalsDiff": 1,
+          "groupPoints": 1.33,
+          "knockoutPoints": 0,
+          "totalPoints": 1.33
+        },
         {
           "teamName": "England",
           "owner": "James",
@@ -512,12 +526,12 @@
           "teamName": "Scotland",
           "owner": "James",
           "groupName": "Group C",
-          "rank": 1,
-          "played": 1,
+          "rank": 3,
+          "played": 2,
           "wins": 1,
           "draws": 0,
-          "losses": 0,
-          "goalsDiff": 1,
+          "losses": 1,
+          "goalsDiff": 0,
           "groupPoints": 1,
           "knockoutPoints": 0,
           "totalPoints": 1
@@ -540,20 +554,6 @@
           "teamName": "Netherlands",
           "owner": "James",
           "groupName": "Group F",
-          "rank": 3,
-          "played": 1,
-          "wins": 0,
-          "draws": 1,
-          "losses": 0,
-          "goalsDiff": 0,
-          "groupPoints": 0.33,
-          "knockoutPoints": 0,
-          "totalPoints": 0.33
-        },
-        {
-          "teamName": "Morocco",
-          "owner": "James",
-          "groupName": "Group C",
           "rank": 3,
           "played": 1,
           "wins": 0,
@@ -796,45 +796,45 @@
       "groupName": "Group C",
       "teams": [
         {
-          "teamName": "Scotland",
-          "played": 1,
+          "teamName": "Brazil",
+          "played": 2,
           "wins": 1,
-          "draws": 0,
+          "draws": 1,
           "losses": 0,
-          "goalsDiff": 1,
-          "points": 3,
-          "owner": "James",
+          "goalsDiff": 3,
+          "points": 4,
+          "owner": "Griffin",
           "rank": 1
         },
         {
-          "teamName": "Brazil",
-          "played": 1,
-          "wins": 0,
+          "teamName": "Morocco",
+          "played": 2,
+          "wins": 1,
           "draws": 1,
           "losses": 0,
-          "goalsDiff": 0,
-          "points": 1,
-          "owner": "Griffin",
+          "goalsDiff": 1,
+          "points": 4,
+          "owner": "James",
           "rank": 2
         },
         {
-          "teamName": "Morocco",
-          "played": 1,
-          "wins": 0,
-          "draws": 1,
-          "losses": 0,
+          "teamName": "Scotland",
+          "played": 2,
+          "wins": 1,
+          "draws": 0,
+          "losses": 1,
           "goalsDiff": 0,
-          "points": 1,
+          "points": 3,
           "owner": "James",
           "rank": 3
         },
         {
           "teamName": "Haiti",
-          "played": 1,
+          "played": 2,
           "wins": 0,
           "draws": 0,
-          "losses": 1,
-          "goalsDiff": -1,
+          "losses": 2,
+          "goalsDiff": -4,
           "points": 0,
           "owner": "Griffin",
           "rank": 4
@@ -1285,12 +1285,30 @@
   ],
   "recentResults": [
     {
+      "date": "2026-06-20",
+      "round": "group_c",
+      "home": "Brazil",
+      "away": "Haiti",
+      "homeGoals": 3,
+      "awayGoals": 0,
+      "status": "FT"
+    },
+    {
       "date": "2026-06-19",
       "round": "group_a",
       "home": "Mexico",
       "away": "Korea Republic",
       "homeGoals": 1,
       "awayGoals": 0,
+      "status": "FT"
+    },
+    {
+      "date": "2026-06-19",
+      "round": "group_c",
+      "home": "Scotland",
+      "away": "Morocco",
+      "homeGoals": 0,
+      "awayGoals": 1,
       "status": "FT"
     },
     {
@@ -1355,41 +1373,9 @@
       "homeGoals": 3,
       "awayGoals": 1,
       "status": "FT"
-    },
-    {
-      "date": "2026-06-17",
-      "round": "group_l",
-      "home": "Ghana",
-      "away": "Panama",
-      "homeGoals": 1,
-      "awayGoals": 0,
-      "status": "FT"
-    },
-    {
-      "date": "2026-06-17",
-      "round": "group_l",
-      "home": "England",
-      "away": "Croatia",
-      "homeGoals": 4,
-      "awayGoals": 2,
-      "status": "FT"
     }
   ],
   "upcomingFixtures": [
-    {
-      "date": "2026-06-19",
-      "round": "group_c",
-      "home": "Scotland",
-      "away": "Morocco",
-      "status": "NS"
-    },
-    {
-      "date": "2026-06-20",
-      "round": "group_c",
-      "home": "Brazil",
-      "away": "Haiti",
-      "status": "NS"
-    },
     {
       "date": "2026-06-20",
       "round": "group_d",
@@ -1444,6 +1430,20 @@
       "round": "group_g",
       "home": "Belgium",
       "away": "IR Iran",
+      "status": "NS"
+    },
+    {
+      "date": "2026-06-22",
+      "round": "group_g",
+      "home": "New Zealand",
+      "away": "Egypt",
+      "status": "NS"
+    },
+    {
+      "date": "2026-06-22",
+      "round": "group_i",
+      "home": "France",
+      "away": "Iraq",
       "status": "NS"
     }
   ]
