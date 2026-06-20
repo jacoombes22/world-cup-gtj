@@ -1,11 +1,25 @@
 {
-  "updatedAt": "2026-06-20T21:20:41.827Z",
+  "updatedAt": "2026-06-20T22:47:44.462Z",
   "currentRound": "group_e",
   "leaderboard": [
     {
       "owner": "Tim",
-      "totalPoints": 10.31,
+      "totalPoints": 11.31,
       "teams": [
+        {
+          "teamName": "Germany",
+          "owner": "Tim",
+          "groupName": "Group E",
+          "rank": 1,
+          "played": 2,
+          "wins": 2,
+          "draws": 0,
+          "losses": 0,
+          "goalsDiff": 7,
+          "groupPoints": 2,
+          "knockoutPoints": 0,
+          "totalPoints": 2
+        },
         {
           "teamName": "USA",
           "owner": "Tim",
@@ -72,20 +86,6 @@
           "draws": 0,
           "losses": 0,
           "goalsDiff": 3,
-          "groupPoints": 1,
-          "knockoutPoints": 0,
-          "totalPoints": 1
-        },
-        {
-          "teamName": "Germany",
-          "owner": "Tim",
-          "groupName": "Group E",
-          "rank": 1,
-          "played": 1,
-          "wins": 1,
-          "draws": 0,
-          "losses": 0,
-          "goalsDiff": 6,
           "groupPoints": 1,
           "knockoutPoints": 0,
           "totalPoints": 1
@@ -297,11 +297,11 @@
           "owner": "Griffin",
           "groupName": "Group E",
           "rank": 2,
-          "played": 1,
+          "played": 2,
           "wins": 1,
           "draws": 0,
-          "losses": 0,
-          "goalsDiff": 1,
+          "losses": 1,
+          "goalsDiff": 0,
           "groupPoints": 1,
           "knockoutPoints": 0,
           "totalPoints": 1
@@ -895,22 +895,22 @@
       "teams": [
         {
           "teamName": "Germany",
-          "played": 1,
-          "wins": 1,
+          "played": 2,
+          "wins": 2,
           "draws": 0,
           "losses": 0,
-          "goalsDiff": 6,
-          "points": 3,
+          "goalsDiff": 7,
+          "points": 6,
           "owner": "Tim",
           "rank": 1
         },
         {
           "teamName": "Ivory Coast",
-          "played": 1,
+          "played": 2,
           "wins": 1,
           "draws": 0,
-          "losses": 0,
-          "goalsDiff": 1,
+          "losses": 1,
+          "goalsDiff": 0,
           "points": 3,
           "owner": "Griffin",
           "rank": 2
@@ -1304,6 +1304,15 @@
     },
     {
       "date": "2026-06-20",
+      "round": "group_e",
+      "home": "Germany",
+      "away": "Côte d'Ivoire",
+      "homeGoals": 2,
+      "awayGoals": 1,
+      "status": "FT"
+    },
+    {
+      "date": "2026-06-20",
       "round": "group_f",
       "home": "Netherlands",
       "away": "Sweden",
@@ -1364,25 +1373,9 @@
       "homeGoals": 4,
       "awayGoals": 1,
       "status": "FT"
-    },
-    {
-      "date": "2026-06-18",
-      "round": "group_b",
-      "home": "Canada",
-      "away": "Qatar",
-      "homeGoals": 6,
-      "awayGoals": 0,
-      "status": "FT"
     }
   ],
   "upcomingFixtures": [
-    {
-      "date": "2026-06-20",
-      "round": "group_e",
-      "home": "Germany",
-      "away": "Côte d'Ivoire",
-      "status": "NS"
-    },
     {
       "date": "2026-06-21",
       "round": "group_e",
@@ -1444,6 +1437,13 @@
       "round": "group_i",
       "home": "Norway",
       "away": "Senegal",
+      "status": "NS"
+    },
+    {
+      "date": "2026-06-23",
+      "round": "group_j",
+      "home": "Jordan",
+      "away": "Algeria",
       "status": "NS"
     }
   ]
