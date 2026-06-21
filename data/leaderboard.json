@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-21T17:59:55.229Z",
+  "updatedAt": "2026-06-21T19:57:32.074Z",
   "currentRound": "group_h",
   "leaderboard": [
     {
@@ -338,7 +338,7 @@
           "teamName": "Uruguay",
           "owner": "Tim",
           "groupName": "Group H",
-          "rank": 4,
+          "rank": 3,
           "played": 1,
           "wins": 0,
           "draws": 1,
@@ -394,12 +394,12 @@
           "teamName": "Saudi Arabia",
           "owner": "Tim",
           "groupName": "Group H",
-          "rank": 2,
-          "played": 1,
+          "rank": 4,
+          "played": 2,
           "wins": 0,
           "draws": 1,
-          "losses": 0,
-          "goalsDiff": 0,
+          "losses": 1,
+          "goalsDiff": -4,
           "groupPoints": 0.33,
           "knockoutPoints": 0,
           "totalPoints": 0.33
@@ -464,8 +464,22 @@
     },
     {
       "owner": "James",
-      "totalPoints": 9.31,
+      "totalPoints": 10.31,
       "teams": [
+        {
+          "teamName": "Spain",
+          "owner": "James",
+          "groupName": "Group H",
+          "rank": 1,
+          "played": 2,
+          "wins": 1,
+          "draws": 1,
+          "losses": 0,
+          "goalsDiff": 4,
+          "groupPoints": 1.33,
+          "knockoutPoints": 0,
+          "totalPoints": 1.33
+        },
         {
           "teamName": "Netherlands",
           "owner": "James",
@@ -565,20 +579,6 @@
           "totalPoints": 1
         },
         {
-          "teamName": "Spain",
-          "owner": "James",
-          "groupName": "Group H",
-          "rank": 3,
-          "played": 1,
-          "wins": 0,
-          "draws": 1,
-          "losses": 0,
-          "goalsDiff": 0,
-          "groupPoints": 0.33,
-          "knockoutPoints": 0,
-          "totalPoints": 0.33
-        },
-        {
           "teamName": "Ecuador",
           "owner": "James",
           "groupName": "Group E",
@@ -610,7 +610,7 @@
           "teamName": "Cabo Verde",
           "owner": "James",
           "groupName": "Group H",
-          "rank": 1,
+          "rank": 2,
           "played": 1,
           "wins": 0,
           "draws": 1,
@@ -1041,6 +1041,17 @@
       "groupName": "Group H",
       "teams": [
         {
+          "teamName": "Spain",
+          "played": 2,
+          "wins": 1,
+          "draws": 1,
+          "losses": 0,
+          "goalsDiff": 4,
+          "points": 4,
+          "owner": "James",
+          "rank": 1
+        },
+        {
           "teamName": "Cabo Verde",
           "played": 1,
           "wins": 0,
@@ -1049,29 +1060,7 @@
           "goalsDiff": 0,
           "points": 1,
           "owner": "James",
-          "rank": 1
-        },
-        {
-          "teamName": "Saudi Arabia",
-          "played": 1,
-          "wins": 0,
-          "draws": 1,
-          "losses": 0,
-          "goalsDiff": 0,
-          "points": 1,
-          "owner": "Tim",
           "rank": 2
-        },
-        {
-          "teamName": "Spain",
-          "played": 1,
-          "wins": 0,
-          "draws": 1,
-          "losses": 0,
-          "goalsDiff": 0,
-          "points": 1,
-          "owner": "James",
-          "rank": 3
         },
         {
           "teamName": "Uruguay",
@@ -1080,6 +1069,17 @@
           "draws": 1,
           "losses": 0,
           "goalsDiff": 0,
+          "points": 1,
+          "owner": "Tim",
+          "rank": 3
+        },
+        {
+          "teamName": "Saudi Arabia",
+          "played": 2,
+          "wins": 0,
+          "draws": 1,
+          "losses": 1,
+          "goalsDiff": -4,
           "points": 1,
           "owner": "Tim",
           "rank": 4
@@ -1303,6 +1303,15 @@
       "status": "FT"
     },
     {
+      "date": "2026-06-21",
+      "round": "group_h",
+      "home": "Spain",
+      "away": "Saudi Arabia",
+      "homeGoals": 4,
+      "awayGoals": 0,
+      "status": "FT"
+    },
+    {
       "date": "2026-06-20",
       "round": "group_c",
       "home": "Brazil",
@@ -1364,15 +1373,6 @@
       "homeGoals": 2,
       "awayGoals": 0,
       "status": "FT"
-    },
-    {
-      "date": "2026-06-18",
-      "round": "group_k",
-      "home": "Uzbekistan",
-      "away": "Colombia",
-      "homeGoals": 1,
-      "awayGoals": 3,
-      "status": "FT"
     }
   ],
   "upcomingFixtures": [
@@ -1381,13 +1381,6 @@
       "round": "group_h",
       "home": "Uruguay",
       "away": "Cabo Verde",
-      "status": "NS"
-    },
-    {
-      "date": "2026-06-21",
-      "round": "group_h",
-      "home": "Spain",
-      "away": "Saudi Arabia",
       "status": "NS"
     },
     {
@@ -1444,6 +1437,13 @@
       "round": "group_l",
       "home": "Panama",
       "away": "Croatia",
+      "status": "NS"
+    },
+    {
+      "date": "2026-06-23",
+      "round": "group_k",
+      "home": "Portugal",
+      "away": "Uzbekistan",
       "status": "NS"
     }
   ]
