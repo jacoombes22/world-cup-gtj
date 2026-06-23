@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-06-23T20:54:35.606Z",
+  "updatedAt": "2026-06-23T22:16:18.609Z",
   "currentRound": "group_l",
   "leaderboard": [
     {
       "owner": "Griffin",
-      "totalPoints": 14.97,
+      "totalPoints": 15.3,
       "teams": [
         {
           "teamName": "Norway",
@@ -91,6 +91,20 @@
           "totalPoints": 1.33
         },
         {
+          "teamName": "Ghana",
+          "owner": "Griffin",
+          "groupName": "Group L",
+          "rank": 2,
+          "played": 2,
+          "wins": 1,
+          "draws": 1,
+          "losses": 0,
+          "goalsDiff": 1,
+          "groupPoints": 1.33,
+          "knockoutPoints": 0,
+          "totalPoints": 1.33
+        },
+        {
           "teamName": "Austria",
           "owner": "Griffin",
           "groupName": "Group J",
@@ -114,20 +128,6 @@
           "draws": 0,
           "losses": 1,
           "goalsDiff": 0,
-          "groupPoints": 1,
-          "knockoutPoints": 0,
-          "totalPoints": 1
-        },
-        {
-          "teamName": "Ghana",
-          "owner": "Griffin",
-          "groupName": "Group L",
-          "rank": 2,
-          "played": 1,
-          "wins": 1,
-          "draws": 0,
-          "losses": 0,
-          "goalsDiff": 1,
           "groupPoints": 1,
           "knockoutPoints": 0,
           "totalPoints": 1
@@ -464,7 +464,7 @@
     },
     {
       "owner": "James",
-      "totalPoints": 11.64,
+      "totalPoints": 11.97,
       "teams": [
         {
           "teamName": "Spain",
@@ -476,6 +476,20 @@
           "draws": 1,
           "losses": 0,
           "goalsDiff": 4,
+          "groupPoints": 1.33,
+          "knockoutPoints": 0,
+          "totalPoints": 1.33
+        },
+        {
+          "teamName": "England",
+          "owner": "James",
+          "groupName": "Group L",
+          "rank": 1,
+          "played": 2,
+          "wins": 1,
+          "draws": 1,
+          "losses": 0,
+          "goalsDiff": 2,
           "groupPoints": 1.33,
           "knockoutPoints": 0,
           "totalPoints": 1.33
@@ -507,20 +521,6 @@
           "groupPoints": 1.33,
           "knockoutPoints": 0,
           "totalPoints": 1.33
-        },
-        {
-          "teamName": "England",
-          "owner": "James",
-          "groupName": "Group L",
-          "rank": 1,
-          "played": 1,
-          "wins": 1,
-          "draws": 0,
-          "losses": 0,
-          "goalsDiff": 2,
-          "groupPoints": 1,
-          "knockoutPoints": 0,
-          "totalPoints": 1
         },
         {
           "teamName": "Colombia",
@@ -1238,23 +1238,23 @@
       "teams": [
         {
           "teamName": "England",
-          "played": 1,
+          "played": 2,
           "wins": 1,
-          "draws": 0,
+          "draws": 1,
           "losses": 0,
           "goalsDiff": 2,
-          "points": 3,
+          "points": 4,
           "owner": "James",
           "rank": 1
         },
         {
           "teamName": "Ghana",
-          "played": 1,
+          "played": 2,
           "wins": 1,
-          "draws": 0,
+          "draws": 1,
           "losses": 0,
           "goalsDiff": 1,
-          "points": 3,
+          "points": 4,
           "owner": "Griffin",
           "rank": 2
         },
@@ -1300,6 +1300,15 @@
       "away": "Algeria",
       "homeGoals": 1,
       "awayGoals": 2,
+      "status": "FT"
+    },
+    {
+      "date": "2026-06-23",
+      "round": "group_l",
+      "home": "England",
+      "away": "Ghana",
+      "homeGoals": 0,
+      "awayGoals": 0,
       "status": "FT"
     },
     {
@@ -1364,25 +1373,9 @@
       "homeGoals": 2,
       "awayGoals": 2,
       "status": "FT"
-    },
-    {
-      "date": "2026-06-21",
-      "round": "group_h",
-      "home": "Spain",
-      "away": "Saudi Arabia",
-      "homeGoals": 4,
-      "awayGoals": 0,
-      "status": "FT"
     }
   ],
   "upcomingFixtures": [
-    {
-      "date": "2026-06-23",
-      "round": "group_l",
-      "home": "England",
-      "away": "Ghana",
-      "status": "NS"
-    },
     {
       "date": "2026-06-23",
       "round": "group_l",
@@ -1444,6 +1437,13 @@
       "round": "group_e",
       "home": "Curaçao",
       "away": "Côte d'Ivoire",
+      "status": "NS"
+    },
+    {
+      "date": "2026-06-25",
+      "round": "group_e",
+      "home": "Ecuador",
+      "away": "Germany",
       "status": "NS"
     }
   ]
