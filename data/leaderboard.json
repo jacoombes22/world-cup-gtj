@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-06-23T23:32:36.480Z",
-  "currentRound": "group_l",
+  "updatedAt": "2026-06-24T01:29:16.770Z",
+  "currentRound": "group_k",
   "leaderboard": [
     {
       "owner": "Griffin",
@@ -206,12 +206,12 @@
           "teamName": "Panama",
           "owner": "Griffin",
           "groupName": "Group L",
-          "rank": 3,
-          "played": 1,
+          "rank": 4,
+          "played": 2,
           "wins": 0,
           "draws": 0,
-          "losses": 1,
-          "goalsDiff": -1,
+          "losses": 2,
+          "goalsDiff": -2,
           "groupPoints": 0,
           "knockoutPoints": 0,
           "totalPoints": 0
@@ -464,7 +464,7 @@
     },
     {
       "owner": "James",
-      "totalPoints": 11.97,
+      "totalPoints": 12.97,
       "teams": [
         {
           "teamName": "Spain",
@@ -532,6 +532,20 @@
           "draws": 0,
           "losses": 0,
           "goalsDiff": 2,
+          "groupPoints": 1,
+          "knockoutPoints": 0,
+          "totalPoints": 1
+        },
+        {
+          "teamName": "Croatia",
+          "owner": "James",
+          "groupName": "Group L",
+          "rank": 3,
+          "played": 2,
+          "wins": 1,
+          "draws": 0,
+          "losses": 1,
+          "goalsDiff": -1,
           "groupPoints": 1,
           "knockoutPoints": 0,
           "totalPoints": 1
@@ -647,20 +661,6 @@
           "groupPoints": 0.33,
           "knockoutPoints": 0,
           "totalPoints": 0.33
-        },
-        {
-          "teamName": "Croatia",
-          "owner": "James",
-          "groupName": "Group L",
-          "rank": 4,
-          "played": 1,
-          "wins": 0,
-          "draws": 0,
-          "losses": 1,
-          "goalsDiff": -2,
-          "groupPoints": 0,
-          "knockoutPoints": 0,
-          "totalPoints": 0
         },
         {
           "teamName": "Jordan",
@@ -1259,25 +1259,25 @@
           "rank": 2
         },
         {
-          "teamName": "Panama",
-          "played": 1,
-          "wins": 0,
+          "teamName": "Croatia",
+          "played": 2,
+          "wins": 1,
           "draws": 0,
           "losses": 1,
           "goalsDiff": -1,
-          "points": 0,
-          "owner": "Griffin",
+          "points": 3,
+          "owner": "James",
           "rank": 3
         },
         {
-          "teamName": "Croatia",
-          "played": 1,
+          "teamName": "Panama",
+          "played": 2,
           "wins": 0,
           "draws": 0,
-          "losses": 1,
+          "losses": 2,
           "goalsDiff": -2,
           "points": 0,
-          "owner": "James",
+          "owner": "Griffin",
           "rank": 4
         }
       ]
@@ -1309,6 +1309,15 @@
       "away": "Ghana",
       "homeGoals": 0,
       "awayGoals": 0,
+      "status": "FT"
+    },
+    {
+      "date": "2026-06-23",
+      "round": "group_l",
+      "home": "Panama",
+      "away": "Croatia",
+      "homeGoals": 0,
+      "awayGoals": 1,
       "status": "FT"
     },
     {
@@ -1364,25 +1373,9 @@
       "homeGoals": 0,
       "awayGoals": 4,
       "status": "FT"
-    },
-    {
-      "date": "2026-06-21",
-      "round": "group_h",
-      "home": "Uruguay",
-      "away": "Cabo Verde",
-      "homeGoals": 2,
-      "awayGoals": 2,
-      "status": "FT"
     }
   ],
   "upcomingFixtures": [
-    {
-      "date": "2026-06-23",
-      "round": "group_l",
-      "home": "Panama",
-      "away": "Croatia",
-      "status": "NS"
-    },
     {
       "date": "2026-06-24",
       "round": "group_k",
@@ -1444,6 +1437,13 @@
       "round": "group_e",
       "home": "Ecuador",
       "away": "Germany",
+      "status": "NS"
+    },
+    {
+      "date": "2026-06-25",
+      "round": "group_f",
+      "home": "Japan",
+      "away": "Sweden",
       "status": "NS"
     }
   ]
