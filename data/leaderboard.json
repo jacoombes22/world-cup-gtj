@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-06-24T01:29:16.770Z",
-  "currentRound": "group_k",
+  "updatedAt": "2026-06-24T05:48:33.238Z",
+  "currentRound": "group_c",
   "leaderboard": [
     {
       "owner": "Griffin",
@@ -38,7 +38,7 @@
           "teamName": "Portugal",
           "owner": "Griffin",
           "groupName": "Group K",
-          "rank": 1,
+          "rank": 2,
           "played": 2,
           "wins": 1,
           "draws": 1,
@@ -381,11 +381,11 @@
           "owner": "Tim",
           "groupName": "Group K",
           "rank": 3,
-          "played": 1,
+          "played": 2,
           "wins": 0,
           "draws": 1,
-          "losses": 0,
-          "goalsDiff": 0,
+          "losses": 1,
+          "goalsDiff": -1,
           "groupPoints": 0.33,
           "knockoutPoints": 0,
           "totalPoints": 0.33
@@ -464,8 +464,22 @@
     },
     {
       "owner": "James",
-      "totalPoints": 12.97,
+      "totalPoints": 13.97,
       "teams": [
+        {
+          "teamName": "Colombia",
+          "owner": "James",
+          "groupName": "Group K",
+          "rank": 1,
+          "played": 2,
+          "wins": 2,
+          "draws": 0,
+          "losses": 0,
+          "goalsDiff": 3,
+          "groupPoints": 2,
+          "knockoutPoints": 0,
+          "totalPoints": 2
+        },
         {
           "teamName": "Spain",
           "owner": "James",
@@ -521,20 +535,6 @@
           "groupPoints": 1.33,
           "knockoutPoints": 0,
           "totalPoints": 1.33
-        },
-        {
-          "teamName": "Colombia",
-          "owner": "James",
-          "groupName": "Group K",
-          "rank": 2,
-          "played": 1,
-          "wins": 1,
-          "draws": 0,
-          "losses": 0,
-          "goalsDiff": 2,
-          "groupPoints": 1,
-          "knockoutPoints": 0,
-          "totalPoints": 1
         },
         {
           "teamName": "Croatia",
@@ -1188,6 +1188,17 @@
       "groupName": "Group K",
       "teams": [
         {
+          "teamName": "Colombia",
+          "played": 2,
+          "wins": 2,
+          "draws": 0,
+          "losses": 0,
+          "goalsDiff": 3,
+          "points": 6,
+          "owner": "James",
+          "rank": 1
+        },
+        {
           "teamName": "Portugal",
           "played": 2,
           "wins": 1,
@@ -1196,26 +1207,15 @@
           "goalsDiff": 5,
           "points": 4,
           "owner": "Griffin",
-          "rank": 1
-        },
-        {
-          "teamName": "Colombia",
-          "played": 1,
-          "wins": 1,
-          "draws": 0,
-          "losses": 0,
-          "goalsDiff": 2,
-          "points": 3,
-          "owner": "James",
           "rank": 2
         },
         {
           "teamName": "DR Congo",
-          "played": 1,
+          "played": 2,
           "wins": 0,
           "draws": 1,
-          "losses": 0,
-          "goalsDiff": 0,
+          "losses": 1,
+          "goalsDiff": -1,
           "points": 1,
           "owner": "Tim",
           "rank": 3
@@ -1284,6 +1284,15 @@
     }
   ],
   "recentResults": [
+    {
+      "date": "2026-06-24",
+      "round": "group_k",
+      "home": "Colombia",
+      "away": "Congo DR",
+      "homeGoals": 1,
+      "awayGoals": 0,
+      "status": "FT"
+    },
     {
       "date": "2026-06-23",
       "round": "group_i",
@@ -1364,25 +1373,9 @@
       "homeGoals": 0,
       "awayGoals": 0,
       "status": "FT"
-    },
-    {
-      "date": "2026-06-21",
-      "round": "group_f",
-      "home": "Tunisia",
-      "away": "Japan",
-      "homeGoals": 0,
-      "awayGoals": 4,
-      "status": "FT"
     }
   ],
   "upcomingFixtures": [
-    {
-      "date": "2026-06-24",
-      "round": "group_k",
-      "home": "Colombia",
-      "away": "Congo DR",
-      "status": "NS"
-    },
     {
       "date": "2026-06-24",
       "round": "group_c",
@@ -1444,6 +1437,13 @@
       "round": "group_f",
       "home": "Japan",
       "away": "Sweden",
+      "status": "NS"
+    },
+    {
+      "date": "2026-06-25",
+      "round": "group_f",
+      "home": "Tunisia",
+      "away": "Netherlands",
       "status": "NS"
     }
   ]
