@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-06-25T20:34:47.245Z",
-  "currentRound": "group_e",
+  "updatedAt": "2026-06-25T22:09:22.960Z",
+  "currentRound": "group_f",
   "leaderboard": [
     {
       "owner": "Griffin",
-      "totalPoints": 25.3,
+      "totalPoints": 27.3,
       "teams": [
         {
           "teamName": "Mexico",
@@ -33,6 +33,20 @@
           "groupPoints": 5.33,
           "knockoutPoints": 0,
           "totalPoints": 5.33
+        },
+        {
+          "teamName": "Ivory Coast",
+          "owner": "Griffin",
+          "groupName": "Group E",
+          "rank": 2,
+          "played": 3,
+          "wins": 2,
+          "draws": 0,
+          "losses": 1,
+          "goalsDiff": 2,
+          "groupPoints": 3,
+          "knockoutPoints": 0,
+          "totalPoints": 3
         },
         {
           "teamName": "South Africa",
@@ -133,20 +147,6 @@
           "totalPoints": 1
         },
         {
-          "teamName": "Ivory Coast",
-          "owner": "Griffin",
-          "groupName": "Group E",
-          "rank": 2,
-          "played": 2,
-          "wins": 1,
-          "draws": 0,
-          "losses": 1,
-          "goalsDiff": 0,
-          "groupPoints": 1,
-          "knockoutPoints": 0,
-          "totalPoints": 1
-        },
-        {
           "teamName": "Australia",
           "owner": "Griffin",
           "groupName": "Group D",
@@ -193,11 +193,11 @@
           "owner": "Griffin",
           "groupName": "Group E",
           "rank": 4,
-          "played": 2,
+          "played": 3,
           "wins": 0,
           "draws": 1,
-          "losses": 1,
-          "goalsDiff": -6,
+          "losses": 2,
+          "goalsDiff": -8,
           "groupPoints": 0.33,
           "knockoutPoints": 0,
           "totalPoints": 0.33
@@ -234,7 +234,7 @@
     },
     {
       "owner": "Tim",
-      "totalPoints": 19.97,
+      "totalPoints": 22.97,
       "teams": [
         {
           "teamName": "Switzerland",
@@ -249,6 +249,20 @@
           "groupPoints": 5.33,
           "knockoutPoints": 0,
           "totalPoints": 5.33
+        },
+        {
+          "teamName": "Germany",
+          "owner": "Tim",
+          "groupName": "Group E",
+          "rank": 1,
+          "played": 3,
+          "wins": 2,
+          "draws": 0,
+          "losses": 1,
+          "goalsDiff": 6,
+          "groupPoints": 5,
+          "knockoutPoints": 0,
+          "totalPoints": 5
         },
         {
           "teamName": "Canada",
@@ -288,20 +302,6 @@
           "draws": 0,
           "losses": 0,
           "goalsDiff": 5,
-          "groupPoints": 2,
-          "knockoutPoints": 0,
-          "totalPoints": 2
-        },
-        {
-          "teamName": "Germany",
-          "owner": "Tim",
-          "groupName": "Group E",
-          "rank": 1,
-          "played": 2,
-          "wins": 2,
-          "draws": 0,
-          "losses": 0,
-          "goalsDiff": 7,
           "groupPoints": 2,
           "knockoutPoints": 0,
           "totalPoints": 2
@@ -464,7 +464,7 @@
     },
     {
       "owner": "James",
-      "totalPoints": 15.97,
+      "totalPoints": 16.97,
       "teams": [
         {
           "teamName": "Morocco",
@@ -532,6 +532,20 @@
           "draws": 1,
           "losses": 0,
           "goalsDiff": 4,
+          "groupPoints": 1.33,
+          "knockoutPoints": 0,
+          "totalPoints": 1.33
+        },
+        {
+          "teamName": "Ecuador",
+          "owner": "James",
+          "groupName": "Group E",
+          "rank": 3,
+          "played": 3,
+          "wins": 1,
+          "draws": 1,
+          "losses": 1,
+          "goalsDiff": 0,
           "groupPoints": 1.33,
           "knockoutPoints": 0,
           "totalPoints": 1.33
@@ -619,20 +633,6 @@
           "groupPoints": 0.66,
           "knockoutPoints": 0,
           "totalPoints": 0.66
-        },
-        {
-          "teamName": "Ecuador",
-          "owner": "James",
-          "groupName": "Group E",
-          "rank": 3,
-          "played": 2,
-          "wins": 0,
-          "draws": 1,
-          "losses": 1,
-          "goalsDiff": -1,
-          "groupPoints": 0.33,
-          "knockoutPoints": 0,
-          "totalPoints": 0.33
         },
         {
           "teamName": "New Zealand",
@@ -895,44 +895,44 @@
       "teams": [
         {
           "teamName": "Germany",
-          "played": 2,
+          "played": 3,
           "wins": 2,
           "draws": 0,
-          "losses": 0,
-          "goalsDiff": 7,
+          "losses": 1,
+          "goalsDiff": 6,
           "points": 6,
           "owner": "Tim",
           "rank": 1
         },
         {
           "teamName": "Ivory Coast",
-          "played": 2,
-          "wins": 1,
+          "played": 3,
+          "wins": 2,
           "draws": 0,
           "losses": 1,
-          "goalsDiff": 0,
-          "points": 3,
+          "goalsDiff": 2,
+          "points": 6,
           "owner": "Griffin",
           "rank": 2
         },
         {
           "teamName": "Ecuador",
-          "played": 2,
-          "wins": 0,
+          "played": 3,
+          "wins": 1,
           "draws": 1,
           "losses": 1,
-          "goalsDiff": -1,
-          "points": 1,
+          "goalsDiff": 0,
+          "points": 4,
           "owner": "James",
           "rank": 3
         },
         {
           "teamName": "Curacao",
-          "played": 2,
+          "played": 3,
           "wins": 0,
           "draws": 1,
-          "losses": 1,
-          "goalsDiff": -6,
+          "losses": 2,
+          "goalsDiff": -8,
           "points": 1,
           "owner": "Griffin",
           "rank": 4
@@ -1303,6 +1303,24 @@
       "status": "FT"
     },
     {
+      "date": "2026-06-25",
+      "round": "group_e",
+      "home": "Curaçao",
+      "away": "Côte d'Ivoire",
+      "homeGoals": 0,
+      "awayGoals": 2,
+      "status": "FT"
+    },
+    {
+      "date": "2026-06-25",
+      "round": "group_e",
+      "home": "Ecuador",
+      "away": "Germany",
+      "homeGoals": 2,
+      "awayGoals": 1,
+      "status": "FT"
+    },
+    {
       "date": "2026-06-24",
       "round": "group_k",
       "home": "Colombia",
@@ -1355,41 +1373,9 @@
       "homeGoals": 3,
       "awayGoals": 2,
       "status": "FT"
-    },
-    {
-      "date": "2026-06-23",
-      "round": "group_j",
-      "home": "Jordan",
-      "away": "Algeria",
-      "homeGoals": 1,
-      "awayGoals": 2,
-      "status": "FT"
-    },
-    {
-      "date": "2026-06-23",
-      "round": "group_l",
-      "home": "England",
-      "away": "Ghana",
-      "homeGoals": 0,
-      "awayGoals": 0,
-      "status": "FT"
     }
   ],
   "upcomingFixtures": [
-    {
-      "date": "2026-06-25",
-      "round": "group_e",
-      "home": "Curaçao",
-      "away": "Côte d'Ivoire",
-      "status": "NS"
-    },
-    {
-      "date": "2026-06-25",
-      "round": "group_e",
-      "home": "Ecuador",
-      "away": "Germany",
-      "status": "NS"
-    },
     {
       "date": "2026-06-25",
       "round": "group_f",
@@ -1444,6 +1430,20 @@
       "round": "group_g",
       "home": "New Zealand",
       "away": "Belgium",
+      "status": "NS"
+    },
+    {
+      "date": "2026-06-27",
+      "round": "group_h",
+      "home": "Cabo Verde",
+      "away": "Saudi Arabia",
+      "status": "NS"
+    },
+    {
+      "date": "2026-06-27",
+      "round": "group_h",
+      "home": "Uruguay",
+      "away": "Spain",
       "status": "NS"
     }
   ]
