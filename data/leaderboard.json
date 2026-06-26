@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-06-25T23:47:46.777Z",
-  "currentRound": "group_f",
+  "updatedAt": "2026-06-26T03:57:47.991Z",
+  "currentRound": "group_d",
   "leaderboard": [
     {
       "owner": "Griffin",
-      "totalPoints": 27.3,
+      "totalPoints": 28.63,
       "teams": [
         {
           "teamName": "Mexico",
@@ -49,6 +49,20 @@
           "totalPoints": 3
         },
         {
+          "teamName": "Japan",
+          "owner": "Griffin",
+          "groupName": "Group F",
+          "rank": 2,
+          "played": 3,
+          "wins": 1,
+          "draws": 2,
+          "losses": 0,
+          "goalsDiff": 4,
+          "groupPoints": 2.66,
+          "knockoutPoints": 0,
+          "totalPoints": 2.66
+        },
+        {
           "teamName": "South Africa",
           "owner": "Griffin",
           "groupName": "Group A",
@@ -86,20 +100,6 @@
           "draws": 1,
           "losses": 0,
           "goalsDiff": 5,
-          "groupPoints": 1.33,
-          "knockoutPoints": 0,
-          "totalPoints": 1.33
-        },
-        {
-          "teamName": "Japan",
-          "owner": "Griffin",
-          "groupName": "Group F",
-          "rank": 1,
-          "played": 2,
-          "wins": 1,
-          "draws": 1,
-          "losses": 0,
-          "goalsDiff": 4,
           "groupPoints": 1.33,
           "knockoutPoints": 0,
           "totalPoints": 1.33
@@ -437,11 +437,11 @@
           "owner": "Tim",
           "groupName": "Group F",
           "rank": 4,
-          "played": 2,
+          "played": 3,
           "wins": 0,
           "draws": 0,
-          "losses": 2,
-          "goalsDiff": -8,
+          "losses": 3,
+          "goalsDiff": -10,
           "groupPoints": 0,
           "knockoutPoints": 0,
           "totalPoints": 0
@@ -464,8 +464,22 @@
     },
     {
       "owner": "James",
-      "totalPoints": 16.97,
+      "totalPoints": 21.3,
       "teams": [
+        {
+          "teamName": "Netherlands",
+          "owner": "James",
+          "groupName": "Group F",
+          "rank": 1,
+          "played": 3,
+          "wins": 2,
+          "draws": 1,
+          "losses": 0,
+          "goalsDiff": 6,
+          "groupPoints": 5.33,
+          "knockoutPoints": 0,
+          "totalPoints": 5.33
+        },
         {
           "teamName": "Morocco",
           "owner": "James",
@@ -523,23 +537,23 @@
           "totalPoints": 1.33
         },
         {
-          "teamName": "Netherlands",
+          "teamName": "Ecuador",
           "owner": "James",
-          "groupName": "Group F",
-          "rank": 2,
-          "played": 2,
+          "groupName": "Group E",
+          "rank": 3,
+          "played": 3,
           "wins": 1,
           "draws": 1,
-          "losses": 0,
-          "goalsDiff": 4,
+          "losses": 1,
+          "goalsDiff": 0,
           "groupPoints": 1.33,
           "knockoutPoints": 0,
           "totalPoints": 1.33
         },
         {
-          "teamName": "Ecuador",
+          "teamName": "Sweden",
           "owner": "James",
-          "groupName": "Group E",
+          "groupName": "Group F",
           "rank": 3,
           "played": 3,
           "wins": 1,
@@ -560,20 +574,6 @@
           "draws": 0,
           "losses": 1,
           "goalsDiff": -1,
-          "groupPoints": 1,
-          "knockoutPoints": 0,
-          "totalPoints": 1
-        },
-        {
-          "teamName": "Sweden",
-          "owner": "James",
-          "groupName": "Group F",
-          "rank": 3,
-          "played": 2,
-          "wins": 1,
-          "draws": 0,
-          "losses": 1,
-          "goalsDiff": 0,
           "groupPoints": 1,
           "knockoutPoints": 0,
           "totalPoints": 1
@@ -943,45 +943,45 @@
       "groupName": "Group F",
       "teams": [
         {
-          "teamName": "Japan",
-          "played": 2,
-          "wins": 1,
+          "teamName": "Netherlands",
+          "played": 3,
+          "wins": 2,
           "draws": 1,
           "losses": 0,
-          "goalsDiff": 4,
-          "points": 4,
-          "owner": "Griffin",
+          "goalsDiff": 6,
+          "points": 7,
+          "owner": "James",
           "rank": 1
         },
         {
-          "teamName": "Netherlands",
-          "played": 2,
+          "teamName": "Japan",
+          "played": 3,
           "wins": 1,
-          "draws": 1,
+          "draws": 2,
           "losses": 0,
           "goalsDiff": 4,
-          "points": 4,
-          "owner": "James",
+          "points": 5,
+          "owner": "Griffin",
           "rank": 2
         },
         {
           "teamName": "Sweden",
-          "played": 2,
+          "played": 3,
           "wins": 1,
-          "draws": 0,
+          "draws": 1,
           "losses": 1,
           "goalsDiff": 0,
-          "points": 3,
+          "points": 4,
           "owner": "James",
           "rank": 3
         },
         {
           "teamName": "Tunisia",
-          "played": 2,
+          "played": 3,
           "wins": 0,
           "draws": 0,
-          "losses": 2,
-          "goalsDiff": -8,
+          "losses": 3,
+          "goalsDiff": -10,
           "points": 0,
           "owner": "Tim",
           "rank": 4
@@ -1321,6 +1321,24 @@
       "status": "FT"
     },
     {
+      "date": "2026-06-25",
+      "round": "group_f",
+      "home": "Japan",
+      "away": "Sweden",
+      "homeGoals": 1,
+      "awayGoals": 1,
+      "status": "FT"
+    },
+    {
+      "date": "2026-06-25",
+      "round": "group_f",
+      "home": "Tunisia",
+      "away": "Netherlands",
+      "homeGoals": 1,
+      "awayGoals": 3,
+      "status": "FT"
+    },
+    {
       "date": "2026-06-24",
       "round": "group_k",
       "home": "Colombia",
@@ -1355,41 +1373,9 @@
       "homeGoals": 2,
       "awayGoals": 1,
       "status": "FT"
-    },
-    {
-      "date": "2026-06-24",
-      "round": "group_b",
-      "home": "Bosnia and Herzegovina",
-      "away": "Qatar",
-      "homeGoals": 3,
-      "awayGoals": 1,
-      "status": "FT"
-    },
-    {
-      "date": "2026-06-23",
-      "round": "group_i",
-      "home": "Norway",
-      "away": "Senegal",
-      "homeGoals": 3,
-      "awayGoals": 2,
-      "status": "FT"
     }
   ],
   "upcomingFixtures": [
-    {
-      "date": "2026-06-25",
-      "round": "group_f",
-      "home": "Japan",
-      "away": "Sweden",
-      "status": "NS"
-    },
-    {
-      "date": "2026-06-25",
-      "round": "group_f",
-      "home": "Tunisia",
-      "away": "Netherlands",
-      "status": "NS"
-    },
     {
       "date": "2026-06-26",
       "round": "group_d",
@@ -1444,6 +1430,20 @@
       "round": "group_h",
       "home": "Uruguay",
       "away": "Spain",
+      "status": "NS"
+    },
+    {
+      "date": "2026-06-27",
+      "round": "group_l",
+      "home": "Panama",
+      "away": "England",
+      "status": "NS"
+    },
+    {
+      "date": "2026-06-27",
+      "round": "group_l",
+      "home": "Croatia",
+      "away": "Ghana",
       "status": "NS"
     }
   ]
