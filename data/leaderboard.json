@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-28T01:52:42.026Z",
+  "updatedAt": "2026-06-28T06:21:41.130Z",
   "currentRound": "r32",
   "leaderboard": [
     {
@@ -234,7 +234,7 @@
     },
     {
       "owner": "Tim",
-      "totalPoints": 36.96,
+      "totalPoints": 37.63,
       "teams": [
         {
           "teamName": "France",
@@ -256,13 +256,13 @@
           "groupName": "Group J",
           "rank": 1,
           "played": 3,
-          "wins": 2,
-          "draws": 1,
+          "wins": 3,
+          "draws": 0,
           "losses": 0,
-          "goalsDiff": 5,
-          "groupPoints": 5.33,
+          "goalsDiff": 7,
+          "groupPoints": 6,
           "knockoutPoints": 0,
-          "totalPoints": 5.33
+          "totalPoints": 6
         },
         {
           "teamName": "Switzerland",
@@ -464,7 +464,7 @@
     },
     {
       "owner": "James",
-      "totalPoints": 36.95,
+      "totalPoints": 36.62,
       "teams": [
         {
           "teamName": "Spain",
@@ -649,20 +649,6 @@
           "totalPoints": 0.33
         },
         {
-          "teamName": "Jordan",
-          "owner": "James",
-          "groupName": "Group J",
-          "rank": 4,
-          "played": 3,
-          "wins": 0,
-          "draws": 1,
-          "losses": 2,
-          "goalsDiff": -3,
-          "groupPoints": 0.33,
-          "knockoutPoints": 0,
-          "totalPoints": 0.33
-        },
-        {
           "teamName": "Qatar",
           "owner": "James",
           "groupName": "Group B",
@@ -675,6 +661,20 @@
           "groupPoints": 0.33,
           "knockoutPoints": 0,
           "totalPoints": 0.33
+        },
+        {
+          "teamName": "Jordan",
+          "owner": "James",
+          "groupName": "Group J",
+          "rank": 4,
+          "played": 3,
+          "wins": 0,
+          "draws": 0,
+          "losses": 3,
+          "goalsDiff": -5,
+          "groupPoints": 0,
+          "knockoutPoints": 0,
+          "totalPoints": 0
         },
         {
           "teamName": "Uzbekistan",
@@ -1141,11 +1141,11 @@
         {
           "teamName": "Argentina",
           "played": 3,
-          "wins": 2,
-          "draws": 1,
+          "wins": 3,
+          "draws": 0,
           "losses": 0,
-          "goalsDiff": 5,
-          "points": 7,
+          "goalsDiff": 7,
+          "points": 9,
           "owner": "Tim",
           "rank": 1
         },
@@ -1175,10 +1175,10 @@
           "teamName": "Jordan",
           "played": 3,
           "wins": 0,
-          "draws": 1,
-          "losses": 2,
-          "goalsDiff": -3,
-          "points": 1,
+          "draws": 0,
+          "losses": 3,
+          "goalsDiff": -5,
+          "points": 0,
           "owner": "James",
           "rank": 4
         }
@@ -1289,8 +1289,8 @@
       "round": "group_j",
       "home": "Algeria",
       "away": "Austria",
-      "homeGoals": 0,
-      "awayGoals": 0,
+      "homeGoals": 3,
+      "awayGoals": 3,
       "status": "FT"
     },
     {
@@ -1298,8 +1298,8 @@
       "round": "group_j",
       "home": "Jordan",
       "away": "Argentina",
-      "homeGoals": 0,
-      "awayGoals": 0,
+      "homeGoals": 1,
+      "awayGoals": 3,
       "status": "FT"
     },
     {
