@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-28T18:06:34.943Z",
+  "updatedAt": "2026-06-28T19:49:35.554Z",
   "currentRound": "r32",
   "leaderboard": [
     {
@@ -1368,7 +1368,7 @@
     {
       "date": "2026-06-27",
       "round": "group_k",
-      "home": "Congo DR",
+      "home": "DR Congo",
       "away": "Uzbekistan",
       "homeGoals": 3,
       "awayGoals": 1,
@@ -1379,71 +1379,71 @@
     {
       "date": "2026-06-28",
       "round": "r32",
-      "home": null,
-      "away": null,
+      "home": "South Africa",
+      "away": "Canada",
       "status": "NS"
     },
     {
       "date": "2026-06-29",
       "round": "r32",
-      "home": null,
-      "away": null,
+      "home": "Germany",
+      "away": "Paraguay",
       "status": "NS"
     },
     {
       "date": "2026-06-29",
       "round": "r32",
-      "home": null,
-      "away": null,
+      "home": "Brazil",
+      "away": "Japan",
       "status": "NS"
     },
     {
       "date": "2026-06-30",
       "round": "r32",
-      "home": null,
-      "away": null,
+      "home": "Netherlands",
+      "away": "Morocco",
       "status": "NS"
     },
     {
       "date": "2026-06-30",
       "round": "r32",
-      "home": null,
-      "away": null,
+      "home": "France",
+      "away": "Sweden",
       "status": "NS"
     },
     {
       "date": "2026-06-30",
       "round": "r32",
-      "home": null,
-      "away": null,
+      "home": "Côte d'Ivoire",
+      "away": "Norway",
       "status": "NS"
     },
     {
       "date": "2026-07-01",
       "round": "r32",
-      "home": null,
-      "away": null,
+      "home": "Mexico",
+      "away": "Ecuador",
       "status": "NS"
     },
     {
       "date": "2026-07-01",
       "round": "r32",
-      "home": null,
-      "away": null,
+      "home": "England",
+      "away": "DR Congo",
       "status": "NS"
     },
     {
       "date": "2026-07-01",
       "round": "r32",
-      "home": null,
-      "away": null,
+      "home": "Belgium",
+      "away": "Senegal",
       "status": "NS"
     },
     {
       "date": "2026-07-02",
       "round": "r32",
-      "home": null,
-      "away": null,
+      "home": "USA",
+      "away": "Bosnia and Herzegovina",
       "status": "NS"
     }
   ]
