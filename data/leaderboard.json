@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-06-30T17:07:27.392Z",
+  "updatedAt": "2026-06-30T19:11:22.295Z",
   "currentRound": "r32",
   "leaderboard": [
     {
       "owner": "Griffin",
-      "totalPoints": 40.95,
+      "totalPoints": 42.95,
       "teams": [
         {
           "teamName": "Brazil",
@@ -35,6 +35,20 @@
           "totalPoints": 6
         },
         {
+          "teamName": "Norway",
+          "owner": "Griffin",
+          "groupName": "Group I",
+          "rank": 2,
+          "played": 3,
+          "wins": 2,
+          "draws": 0,
+          "losses": 1,
+          "goalsDiff": 1,
+          "groupPoints": 3,
+          "knockoutPoints": 2,
+          "totalPoints": 5
+        },
+        {
           "teamName": "Belgium",
           "owner": "Griffin",
           "groupName": "Group G",
@@ -47,20 +61,6 @@
           "groupPoints": 4.66,
           "knockoutPoints": 0,
           "totalPoints": 4.66
-        },
-        {
-          "teamName": "Norway",
-          "owner": "Griffin",
-          "groupName": "Group I",
-          "rank": 2,
-          "played": 3,
-          "wins": 2,
-          "draws": 0,
-          "losses": 1,
-          "goalsDiff": 1,
-          "groupPoints": 3,
-          "knockoutPoints": 0,
-          "totalPoints": 3
         },
         {
           "teamName": "Ivory Coast",
@@ -1294,6 +1294,15 @@
       "status": "FT"
     },
     {
+      "date": "2026-06-30",
+      "round": "r32",
+      "home": "Côte d'Ivoire",
+      "away": "Norway",
+      "homeGoals": 1,
+      "awayGoals": 2,
+      "status": "FT"
+    },
+    {
       "date": "2026-06-29",
       "round": "r32",
       "home": "Germany",
@@ -1364,15 +1373,6 @@
       "homeGoals": 0,
       "awayGoals": 0,
       "status": "FT"
-    },
-    {
-      "date": "2026-06-27",
-      "round": "group_h",
-      "home": "Uruguay",
-      "away": "Spain",
-      "homeGoals": 0,
-      "awayGoals": 1,
-      "status": "FT"
     }
   ],
   "upcomingFixtures": [
@@ -1381,13 +1381,6 @@
       "round": "r32",
       "home": "France",
       "away": "Sweden",
-      "status": "NS"
-    },
-    {
-      "date": "2026-06-30",
-      "round": "r32",
-      "home": "Côte d'Ivoire",
-      "away": "Norway",
       "status": "NS"
     },
     {
@@ -1444,6 +1437,13 @@
       "round": "r32",
       "home": "Argentina",
       "away": "Cabo Verde",
+      "status": "NS"
+    },
+    {
+      "date": "2026-07-03",
+      "round": "r32",
+      "home": "Australia",
+      "away": "Egypt",
       "status": "NS"
     }
   ]
