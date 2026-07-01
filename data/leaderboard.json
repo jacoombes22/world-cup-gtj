@@ -1,11 +1,25 @@
 {
-  "updatedAt": "2026-07-01T00:07:27.596Z",
+  "updatedAt": "2026-07-01T04:57:14.769Z",
   "currentRound": "r32",
   "leaderboard": [
     {
       "owner": "Griffin",
-      "totalPoints": 42.95,
+      "totalPoints": 44.95,
       "teams": [
+        {
+          "teamName": "Mexico",
+          "owner": "Griffin",
+          "groupName": "Group A",
+          "rank": 1,
+          "played": 3,
+          "wins": 3,
+          "draws": 0,
+          "losses": 0,
+          "goalsDiff": 6,
+          "groupPoints": 6,
+          "knockoutPoints": 2,
+          "totalPoints": 8
+        },
         {
           "teamName": "Brazil",
           "owner": "Griffin",
@@ -19,20 +33,6 @@
           "groupPoints": 5.33,
           "knockoutPoints": 2,
           "totalPoints": 7.33
-        },
-        {
-          "teamName": "Mexico",
-          "owner": "Griffin",
-          "groupName": "Group A",
-          "rank": 1,
-          "played": 3,
-          "wins": 3,
-          "draws": 0,
-          "losses": 0,
-          "goalsDiff": 6,
-          "groupPoints": 6,
-          "knockoutPoints": 0,
-          "totalPoints": 6
         },
         {
           "teamName": "Norway",
@@ -1285,6 +1285,15 @@
   ],
   "recentResults": [
     {
+      "date": "2026-07-01",
+      "round": "r32",
+      "home": "Mexico",
+      "away": "Ecuador",
+      "homeGoals": 2,
+      "awayGoals": 0,
+      "status": "FT"
+    },
+    {
       "date": "2026-06-30",
       "round": "r32",
       "home": "Netherlands",
@@ -1364,25 +1373,9 @@
       "homeGoals": 1,
       "awayGoals": 1,
       "status": "FT"
-    },
-    {
-      "date": "2026-06-27",
-      "round": "group_g",
-      "home": "New Zealand",
-      "away": "Belgium",
-      "homeGoals": 1,
-      "awayGoals": 5,
-      "status": "FT"
     }
   ],
   "upcomingFixtures": [
-    {
-      "date": "2026-07-01",
-      "round": "r32",
-      "home": "Mexico",
-      "away": "Ecuador",
-      "status": "NS"
-    },
     {
       "date": "2026-07-01",
       "round": "r32",
@@ -1444,6 +1437,13 @@
       "round": "r32",
       "home": "Colombia",
       "away": "Ghana",
+      "status": "NS"
+    },
+    {
+      "date": "2026-07-04",
+      "round": "r16",
+      "home": null,
+      "away": null,
       "status": "NS"
     }
   ]
