@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-07-02T00:10:49.605Z",
+  "updatedAt": "2026-07-02T04:33:54.679Z",
   "currentRound": "r32",
   "leaderboard": [
     {
       "owner": "Griffin",
-      "totalPoints": 44.95,
+      "totalPoints": 46.95,
       "teams": [
         {
           "teamName": "Mexico",
@@ -35,6 +35,20 @@
           "totalPoints": 7.33
         },
         {
+          "teamName": "Belgium",
+          "owner": "Griffin",
+          "groupName": "Group G",
+          "rank": 1,
+          "played": 3,
+          "wins": 1,
+          "draws": 2,
+          "losses": 0,
+          "goalsDiff": 4,
+          "groupPoints": 4.66,
+          "knockoutPoints": 2,
+          "totalPoints": 6.66
+        },
+        {
           "teamName": "Norway",
           "owner": "Griffin",
           "groupName": "Group I",
@@ -47,20 +61,6 @@
           "groupPoints": 3,
           "knockoutPoints": 2,
           "totalPoints": 5
-        },
-        {
-          "teamName": "Belgium",
-          "owner": "Griffin",
-          "groupName": "Group G",
-          "rank": 1,
-          "played": 3,
-          "wins": 1,
-          "draws": 2,
-          "losses": 0,
-          "goalsDiff": 4,
-          "groupPoints": 4.66,
-          "knockoutPoints": 0,
-          "totalPoints": 4.66
         },
         {
           "teamName": "Ivory Coast",
@@ -251,6 +251,20 @@
           "totalPoints": 8
         },
         {
+          "teamName": "USA",
+          "owner": "Tim",
+          "groupName": "Group D",
+          "rank": 1,
+          "played": 3,
+          "wins": 2,
+          "draws": 0,
+          "losses": 1,
+          "goalsDiff": 4,
+          "groupPoints": 5,
+          "knockoutPoints": 2,
+          "totalPoints": 7
+        },
+        {
           "teamName": "Argentina",
           "owner": "Tim",
           "groupName": "Group J",
@@ -293,20 +307,6 @@
           "totalPoints": 5
         },
         {
-          "teamName": "USA",
-          "owner": "Tim",
-          "groupName": "Group D",
-          "rank": 1,
-          "played": 3,
-          "wins": 2,
-          "draws": 0,
-          "losses": 1,
-          "goalsDiff": 4,
-          "groupPoints": 5,
-          "knockoutPoints": 0,
-          "totalPoints": 5
-        },
-        {
           "teamName": "Canada",
           "owner": "Tim",
           "groupName": "Group B",
@@ -319,20 +319,6 @@
           "groupPoints": 2.33,
           "knockoutPoints": 2,
           "totalPoints": 4.33
-        },
-        {
-          "teamName": "Senegal",
-          "owner": "Tim",
-          "groupName": "Group I",
-          "rank": 3,
-          "played": 3,
-          "wins": 1,
-          "draws": 0,
-          "losses": 2,
-          "goalsDiff": 2,
-          "groupPoints": 1,
-          "knockoutPoints": 2,
-          "totalPoints": 3
         },
         {
           "teamName": "Bosnia and Herzegovina",
@@ -386,6 +372,20 @@
           "draws": 0,
           "losses": 2,
           "goalsDiff": -1,
+          "groupPoints": 1,
+          "knockoutPoints": 0,
+          "totalPoints": 1
+        },
+        {
+          "teamName": "Senegal",
+          "owner": "Tim",
+          "groupName": "Group I",
+          "rank": 3,
+          "played": 3,
+          "wins": 1,
+          "draws": 0,
+          "losses": 2,
+          "goalsDiff": 2,
           "groupPoints": 1,
           "knockoutPoints": 0,
           "totalPoints": 1
@@ -1285,6 +1285,15 @@
   ],
   "recentResults": [
     {
+      "date": "2026-07-02",
+      "round": "r32",
+      "home": "USA",
+      "away": "Bosnia and Herzegovina",
+      "homeGoals": 2,
+      "awayGoals": 0,
+      "status": "FT"
+    },
+    {
       "date": "2026-07-01",
       "round": "r32",
       "home": "Mexico",
@@ -1307,7 +1316,7 @@
       "round": "r32",
       "home": "Belgium",
       "away": "Senegal",
-      "homeGoals": 0,
+      "homeGoals": 3,
       "awayGoals": 2,
       "status": "FT"
     },
@@ -1364,25 +1373,9 @@
       "homeGoals": 3,
       "awayGoals": 3,
       "status": "FT"
-    },
-    {
-      "date": "2026-06-28",
-      "round": "group_j",
-      "home": "Jordan",
-      "away": "Argentina",
-      "homeGoals": 1,
-      "awayGoals": 3,
-      "status": "FT"
     }
   ],
   "upcomingFixtures": [
-    {
-      "date": "2026-07-02",
-      "round": "r32",
-      "home": "USA",
-      "away": "Bosnia and Herzegovina",
-      "status": "NS"
-    },
     {
       "date": "2026-07-02",
       "round": "r32",
@@ -1441,6 +1434,13 @@
     },
     {
       "date": "2026-07-05",
+      "round": "r16",
+      "home": null,
+      "away": null,
+      "status": "NS"
+    },
+    {
+      "date": "2026-07-06",
       "round": "r16",
       "home": null,
       "away": null,
