@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-07-03T01:05:34.853Z",
+  "updatedAt": "2026-07-03T05:01:28.473Z",
   "currentRound": "r32",
   "leaderboard": [
     {
       "owner": "Griffin",
-      "totalPoints": 46.95,
+      "totalPoints": 48.95,
       "teams": [
         {
           "teamName": "Mexico",
@@ -63,6 +63,20 @@
           "totalPoints": 5
         },
         {
+          "teamName": "Portugal",
+          "owner": "Griffin",
+          "groupName": "Group K",
+          "rank": 2,
+          "played": 3,
+          "wins": 1,
+          "draws": 2,
+          "losses": 0,
+          "goalsDiff": 5,
+          "groupPoints": 2.66,
+          "knockoutPoints": 2,
+          "totalPoints": 4.66
+        },
+        {
           "teamName": "Ivory Coast",
           "owner": "Griffin",
           "groupName": "Group E",
@@ -75,20 +89,6 @@
           "groupPoints": 3,
           "knockoutPoints": 0,
           "totalPoints": 3
-        },
-        {
-          "teamName": "Portugal",
-          "owner": "Griffin",
-          "groupName": "Group K",
-          "rank": 2,
-          "played": 3,
-          "wins": 1,
-          "draws": 2,
-          "losses": 0,
-          "goalsDiff": 5,
-          "groupPoints": 2.66,
-          "knockoutPoints": 0,
-          "totalPoints": 2.66
         },
         {
           "teamName": "Japan",
@@ -1296,6 +1296,15 @@
     {
       "date": "2026-07-02",
       "round": "r32",
+      "home": "Portugal",
+      "away": "Croatia",
+      "homeGoals": 2,
+      "awayGoals": 1,
+      "status": "FT"
+    },
+    {
+      "date": "2026-07-02",
+      "round": "r32",
       "home": "Spain",
       "away": "Austria",
       "homeGoals": 3,
@@ -1364,25 +1373,9 @@
       "homeGoals": 1,
       "awayGoals": 1,
       "status": "FT"
-    },
-    {
-      "date": "2026-06-29",
-      "round": "r32",
-      "home": "Brazil",
-      "away": "Japan",
-      "homeGoals": 2,
-      "awayGoals": 1,
-      "status": "FT"
     }
   ],
   "upcomingFixtures": [
-    {
-      "date": "2026-07-02",
-      "round": "r32",
-      "home": "Portugal",
-      "away": "Croatia",
-      "status": "NS"
-    },
     {
       "date": "2026-07-03",
       "round": "r32",
@@ -1441,6 +1434,13 @@
     },
     {
       "date": "2026-07-06",
+      "round": "r16",
+      "home": null,
+      "away": null,
+      "status": "NS"
+    },
+    {
+      "date": "2026-07-07",
       "round": "r16",
       "home": null,
       "away": null,
