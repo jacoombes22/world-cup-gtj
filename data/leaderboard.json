@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-07-03T20:16:25.669Z",
+  "updatedAt": "2026-07-03T21:35:26.012Z",
   "currentRound": "r32",
   "leaderboard": [
     {
       "owner": "Griffin",
-      "totalPoints": 48.95,
+      "totalPoints": 50.95,
       "teams": [
         {
           "teamName": "Mexico",
@@ -77,6 +77,20 @@
           "totalPoints": 4.66
         },
         {
+          "teamName": "Egypt",
+          "owner": "Griffin",
+          "groupName": "Group G",
+          "rank": 2,
+          "played": 3,
+          "wins": 1,
+          "draws": 2,
+          "losses": 0,
+          "goalsDiff": 2,
+          "groupPoints": 2.66,
+          "knockoutPoints": 2,
+          "totalPoints": 4.66
+        },
+        {
           "teamName": "Ivory Coast",
           "owner": "Griffin",
           "groupName": "Group E",
@@ -100,20 +114,6 @@
           "draws": 2,
           "losses": 0,
           "goalsDiff": 4,
-          "groupPoints": 2.66,
-          "knockoutPoints": 0,
-          "totalPoints": 2.66
-        },
-        {
-          "teamName": "Egypt",
-          "owner": "Griffin",
-          "groupName": "Group G",
-          "rank": 2,
-          "played": 3,
-          "wins": 1,
-          "draws": 2,
-          "losses": 0,
-          "goalsDiff": 2,
           "groupPoints": 2.66,
           "knockoutPoints": 0,
           "totalPoints": 2.66
@@ -1298,8 +1298,8 @@
       "round": "r32",
       "home": "Australia",
       "away": "Egypt",
-      "homeGoals": 0,
-      "awayGoals": 0,
+      "homeGoals": 1,
+      "awayGoals": 1,
       "status": "FT"
     },
     {
