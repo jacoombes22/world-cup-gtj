@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-04T03:23:29.570Z",
-  "currentRound": "r32",
+  "updatedAt": "2026-07-04T06:36:31.933Z",
+  "currentRound": "r16",
   "leaderboard": [
     {
       "owner": "Griffin",
@@ -464,7 +464,7 @@
     },
     {
       "owner": "James",
-      "totalPoints": 44.62,
+      "totalPoints": 46.62,
       "teams": [
         {
           "teamName": "Spain",
@@ -495,6 +495,20 @@
           "totalPoints": 7.33
         },
         {
+          "teamName": "Colombia",
+          "owner": "James",
+          "groupName": "Group K",
+          "rank": 1,
+          "played": 3,
+          "wins": 2,
+          "draws": 1,
+          "losses": 0,
+          "goalsDiff": 3,
+          "groupPoints": 5.33,
+          "knockoutPoints": 2,
+          "totalPoints": 7.33
+        },
+        {
           "teamName": "Netherlands",
           "owner": "James",
           "groupName": "Group F",
@@ -520,20 +534,6 @@
           "goalsDiff": 3,
           "groupPoints": 3.33,
           "knockoutPoints": 2,
-          "totalPoints": 5.33
-        },
-        {
-          "teamName": "Colombia",
-          "owner": "James",
-          "groupName": "Group K",
-          "rank": 1,
-          "played": 3,
-          "wins": 2,
-          "draws": 1,
-          "losses": 0,
-          "goalsDiff": 3,
-          "groupPoints": 5.33,
-          "knockoutPoints": 0,
           "totalPoints": 5.33
         },
         {
@@ -1285,6 +1285,15 @@
   ],
   "recentResults": [
     {
+      "date": "2026-07-04",
+      "round": "r32",
+      "home": "Colombia",
+      "away": "Ghana",
+      "homeGoals": 1,
+      "awayGoals": 0,
+      "status": "FT"
+    },
+    {
       "date": "2026-07-03",
       "round": "r32",
       "home": "Switzerland",
@@ -1364,25 +1373,9 @@
       "homeGoals": 3,
       "awayGoals": 2,
       "status": "FT"
-    },
-    {
-      "date": "2026-06-30",
-      "round": "r32",
-      "home": "Netherlands",
-      "away": "Morocco",
-      "homeGoals": 1,
-      "awayGoals": 1,
-      "status": "FT"
     }
   ],
   "upcomingFixtures": [
-    {
-      "date": "2026-07-04",
-      "round": "r32",
-      "home": "Colombia",
-      "away": "Ghana",
-      "status": "NS"
-    },
     {
       "date": "2026-07-04",
       "round": "r16",
@@ -1441,6 +1434,13 @@
     },
     {
       "date": "2026-07-09",
+      "round": "qf",
+      "home": null,
+      "away": null,
+      "status": "NS"
+    },
+    {
+      "date": "2026-07-10",
       "round": "qf",
       "home": null,
       "away": null,
