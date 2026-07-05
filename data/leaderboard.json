@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-04T23:43:14.632Z",
+  "updatedAt": "2026-07-05T03:40:09.710Z",
   "currentRound": "r16",
   "leaderboard": [
     {
@@ -1299,6 +1299,15 @@
       "home": null,
       "away": null,
       "homeGoals": 0,
+      "awayGoals": 1,
+      "status": "FT"
+    },
+    {
+      "date": "2026-07-04",
+      "round": "r16",
+      "home": null,
+      "away": null,
+      "homeGoals": 0,
       "awayGoals": 3,
       "status": "FT"
     },
@@ -1364,25 +1373,9 @@
       "homeGoals": 2,
       "awayGoals": 0,
       "status": "FT"
-    },
-    {
-      "date": "2026-07-01",
-      "round": "r32",
-      "home": "England",
-      "away": "DR Congo",
-      "homeGoals": 2,
-      "awayGoals": 1,
-      "status": "FT"
     }
   ],
   "upcomingFixtures": [
-    {
-      "date": "2026-07-04",
-      "round": "r16",
-      "home": null,
-      "away": null,
-      "status": "NS"
-    },
     {
       "date": "2026-07-05",
       "round": "r16",
@@ -1441,6 +1434,13 @@
     },
     {
       "date": "2026-07-11",
+      "round": "qf",
+      "home": null,
+      "away": null,
+      "status": "NS"
+    },
+    {
+      "date": "2026-07-12",
       "round": "qf",
       "home": null,
       "away": null,
