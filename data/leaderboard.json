@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-07T21:09:41.021Z",
-  "currentRound": "r16",
+  "updatedAt": "2026-07-07T22:33:23.308Z",
+  "currentRound": "qf",
   "leaderboard": [
     {
       "owner": "Griffin",
@@ -1303,6 +1303,15 @@
       "status": "FT"
     },
     {
+      "date": "2026-07-07",
+      "round": "r16",
+      "home": "Switzerland",
+      "away": "Colombia",
+      "homeGoals": 0,
+      "awayGoals": 0,
+      "status": "FT"
+    },
+    {
       "date": "2026-07-06",
       "round": "r16",
       "home": "Mexico",
@@ -1364,25 +1373,9 @@
       "homeGoals": 2,
       "awayGoals": 0,
       "status": "FT"
-    },
-    {
-      "date": "2026-07-03",
-      "round": "r32",
-      "home": "Argentina",
-      "away": "Cabo Verde",
-      "homeGoals": 3,
-      "awayGoals": 2,
-      "status": "FT"
     }
   ],
   "upcomingFixtures": [
-    {
-      "date": "2026-07-07",
-      "round": "r16",
-      "home": "Switzerland",
-      "away": "Colombia",
-      "status": "NS"
-    },
     {
       "date": "2026-07-09",
       "round": "qf",
