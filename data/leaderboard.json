@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-11T19:49:53.618Z",
+  "updatedAt": "2026-07-11T20:52:10.461Z",
   "currentRound": "qf",
   "leaderboard": [
     {
@@ -1285,6 +1285,15 @@
   ],
   "recentResults": [
     {
+      "date": "2026-07-11",
+      "round": "qf",
+      "home": "Norway",
+      "away": "England",
+      "homeGoals": 0,
+      "awayGoals": 0,
+      "status": "FT"
+    },
+    {
       "date": "2026-07-10",
       "round": "qf",
       "home": "Spain",
@@ -1364,25 +1373,9 @@
       "homeGoals": 1,
       "awayGoals": 0,
       "status": "FT"
-    },
-    {
-      "date": "2026-07-04",
-      "round": "r16",
-      "home": "Paraguay",
-      "away": "France",
-      "homeGoals": 0,
-      "awayGoals": 1,
-      "status": "FT"
     }
   ],
   "upcomingFixtures": [
-    {
-      "date": "2026-07-11",
-      "round": "qf",
-      "home": "Norway",
-      "away": "England",
-      "status": "NS"
-    },
     {
       "date": "2026-07-12",
       "round": "qf",
