@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-07-11T23:57:40.584Z",
-  "currentRound": "qf",
+  "updatedAt": "2026-07-12T03:43:41.444Z",
+  "currentRound": "sf",
   "leaderboard": [
     {
       "owner": "James",
-      "totalPoints": 63.62,
+      "totalPoints": 68.62,
       "teams": [
         {
           "teamName": "Spain",
@@ -31,8 +31,8 @@
           "losses": 0,
           "goalsDiff": 4,
           "groupPoints": 5.33,
-          "knockoutPoints": 5,
-          "totalPoints": 10.33
+          "knockoutPoints": 10,
+          "totalPoints": 15.33
         },
         {
           "teamName": "Colombia",
@@ -1285,6 +1285,24 @@
   ],
   "recentResults": [
     {
+      "date": "2026-07-12",
+      "round": "qf",
+      "home": "Argentina",
+      "away": "Switzerland",
+      "homeGoals": 0,
+      "awayGoals": 0,
+      "status": "FT"
+    },
+    {
+      "date": "2026-07-11",
+      "round": "qf",
+      "home": "Norway",
+      "away": "England",
+      "homeGoals": 1,
+      "awayGoals": 2,
+      "status": "FT"
+    },
+    {
       "date": "2026-07-10",
       "round": "qf",
       "home": "Spain",
@@ -1355,41 +1373,9 @@
       "homeGoals": 1,
       "awayGoals": 2,
       "status": "FT"
-    },
-    {
-      "date": "2026-07-04",
-      "round": "r32",
-      "home": "Colombia",
-      "away": "Ghana",
-      "homeGoals": 1,
-      "awayGoals": 0,
-      "status": "FT"
-    },
-    {
-      "date": "2026-07-04",
-      "round": "r16",
-      "home": "Paraguay",
-      "away": "France",
-      "homeGoals": 0,
-      "awayGoals": 1,
-      "status": "FT"
     }
   ],
   "upcomingFixtures": [
-    {
-      "date": "2026-07-11",
-      "round": "qf",
-      "home": "Norway",
-      "away": "England",
-      "status": "NS"
-    },
-    {
-      "date": "2026-07-12",
-      "round": "qf",
-      "home": "Argentina",
-      "away": "Switzerland",
-      "status": "NS"
-    },
     {
       "date": "2026-07-14",
       "round": "sf",
@@ -1400,7 +1386,7 @@
     {
       "date": "2026-07-15",
       "round": "sf",
-      "home": null,
+      "home": "England",
       "away": null,
       "status": "NS"
     },
