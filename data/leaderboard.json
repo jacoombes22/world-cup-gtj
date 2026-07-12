@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-12T17:29:06.976Z",
+  "updatedAt": "2026-07-12T18:33:51.792Z",
   "currentRound": "sf",
   "leaderboard": [
     {
@@ -234,7 +234,7 @@
     },
     {
       "owner": "Tim",
-      "totalPoints": 58.63,
+      "totalPoints": 63.63,
       "teams": [
         {
           "teamName": "France",
@@ -261,8 +261,8 @@
           "losses": 0,
           "goalsDiff": 7,
           "groupPoints": 6,
-          "knockoutPoints": 5,
-          "totalPoints": 11
+          "knockoutPoints": 10,
+          "totalPoints": 16
         },
         {
           "teamName": "Switzerland",
@@ -1289,8 +1289,8 @@
       "round": "qf",
       "home": "Argentina",
       "away": "Switzerland",
-      "homeGoals": 0,
-      "awayGoals": 0,
+      "homeGoals": 3,
+      "awayGoals": 1,
       "status": "FT"
     },
     {
