@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-14T17:16:38.565Z",
+  "updatedAt": "2026-07-14T19:54:08.672Z",
   "currentRound": "sf",
   "leaderboard": [
     {
@@ -1393,14 +1393,14 @@
     {
       "date": "2026-07-18",
       "round": "thirdPlace",
-      "home": null,
+      "home": "France",
       "away": null,
       "status": "NS"
     },
     {
       "date": "2026-07-19",
       "round": "final",
-      "home": null,
+      "home": "Spain",
       "away": null,
       "status": "NS"
     }
