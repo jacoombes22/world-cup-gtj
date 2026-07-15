@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-15T22:16:52.981Z",
-  "currentRound": "sf",
+  "updatedAt": "2026-07-15T23:24:50.146Z",
+  "currentRound": "thirdPlace",
   "leaderboard": [
     {
       "owner": "James",
@@ -234,22 +234,8 @@
     },
     {
       "owner": "Tim",
-      "totalPoints": 63.63,
+      "totalPoints": 71.63,
       "teams": [
-        {
-          "teamName": "France",
-          "owner": "Tim",
-          "groupName": "Group I",
-          "rank": 1,
-          "played": 3,
-          "wins": 3,
-          "draws": 0,
-          "losses": 0,
-          "goalsDiff": 8,
-          "groupPoints": 6,
-          "knockoutPoints": 10,
-          "totalPoints": 16
-        },
         {
           "teamName": "Argentina",
           "owner": "Tim",
@@ -260,6 +246,20 @@
           "draws": 0,
           "losses": 0,
           "goalsDiff": 7,
+          "groupPoints": 6,
+          "knockoutPoints": 18,
+          "totalPoints": 24
+        },
+        {
+          "teamName": "France",
+          "owner": "Tim",
+          "groupName": "Group I",
+          "rank": 1,
+          "played": 3,
+          "wins": 3,
+          "draws": 0,
+          "losses": 0,
+          "goalsDiff": 8,
           "groupPoints": 6,
           "knockoutPoints": 10,
           "totalPoints": 16
@@ -1285,6 +1285,15 @@
   ],
   "recentResults": [
     {
+      "date": "2026-07-15",
+      "round": "sf",
+      "home": "England",
+      "away": "Argentina",
+      "homeGoals": 1,
+      "awayGoals": 2,
+      "status": "FT"
+    },
+    {
       "date": "2026-07-14",
       "round": "sf",
       "home": "France",
@@ -1364,25 +1373,9 @@
       "homeGoals": 2,
       "awayGoals": 3,
       "status": "FT"
-    },
-    {
-      "date": "2026-07-06",
-      "round": "r16",
-      "home": "Portugal",
-      "away": "Spain",
-      "homeGoals": 0,
-      "awayGoals": 1,
-      "status": "FT"
     }
   ],
   "upcomingFixtures": [
-    {
-      "date": "2026-07-15",
-      "round": "sf",
-      "home": "England",
-      "away": "Argentina",
-      "status": "NS"
-    },
     {
       "date": "2026-07-18",
       "round": "thirdPlace",
