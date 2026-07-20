@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-07-19T22:56:06.712Z",
-  "currentRound": "final",
+  "updatedAt": "2026-07-20T00:01:02.790Z",
+  "currentRound": "Completed",
   "leaderboard": [
     {
       "owner": "James",
-      "totalPoints": 76.62,
+      "totalPoints": 89.62,
       "teams": [
         {
           "teamName": "Spain",
@@ -17,8 +17,8 @@
           "losses": 0,
           "goalsDiff": 5,
           "groupPoints": 5.33,
-          "knockoutPoints": 18,
-          "totalPoints": 23.33
+          "knockoutPoints": 31,
+          "totalPoints": 36.33
         },
         {
           "teamName": "England",
@@ -1285,6 +1285,15 @@
   ],
   "recentResults": [
     {
+      "date": "2026-07-19",
+      "round": "final",
+      "home": "Spain",
+      "away": "Argentina",
+      "homeGoals": 1,
+      "awayGoals": 0,
+      "status": "FT"
+    },
+    {
       "date": "2026-07-18",
       "round": "thirdPlace",
       "home": "France",
@@ -1364,24 +1373,7 @@
       "homeGoals": 3,
       "awayGoals": 2,
       "status": "FT"
-    },
-    {
-      "date": "2026-07-07",
-      "round": "r16",
-      "home": "Switzerland",
-      "away": "Colombia",
-      "homeGoals": 0,
-      "awayGoals": 0,
-      "status": "FT"
     }
   ],
-  "upcomingFixtures": [
-    {
-      "date": "2026-07-19",
-      "round": "final",
-      "home": "Spain",
-      "away": "Argentina",
-      "status": "NS"
-    }
-  ]
+  "upcomingFixtures": []
 }
